@@ -6,6 +6,8 @@ export interface Party {
   description: string;
   website: string;
   logo: string;
+  founded?: number;
+  policies?: string[];
 }
 
 export interface Candidate {
