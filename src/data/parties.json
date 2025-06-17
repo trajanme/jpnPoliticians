@@ -1,0 +1,49 @@
+{
+  "parties": [
+    {
+      "id": "ldp",
+      "name": "自由民主党",
+      "shortName": "自民党",
+      "color": "#1E3A8A",
+      "description": "保守政党。憲法改正、経済成長、安全保障を重視。",
+      "website": "https://www.jimin.jp/",
+      "logo": "/images/parties/ldp.png"
+    },
+    {
+      "id": "cdp",
+      "name": "立憲民主党",
+      "shortName": "立民党",
+      "color": "#1E40AF",
+      "description": "リベラル政党。人権、民主主義、平和を重視。",
+      "website": "https://cdp-japan.jp/",
+      "logo": "/images/parties/cdp.png"
+    },
+    {
+      "id": "komei",
+      "name": "公明党",
+      "shortName": "公明党",
+      "color": "#F59E0B",
+      "description": "中道政党。福祉、教育、平和を重視。",
+      "website": "https://www.komei.or.jp/",
+      "logo": "/images/parties/komei.png"
+    },
+    {
+      "id": "jcp",
+      "name": "日本共産党",
+      "shortName": "共産党",
+      "color": "#DC2626",
+      "description": "革新政党。平和、民主主義、福祉を重視。",
+      "website": "https://www.jcp.or.jp/",
+      "logo": "/images/parties/jcp.png"
+    },
+    {
+      "id": "ishin",
+      "name": "日本維新の会",
+      "shortName": "維新",
+      "color": "#059669",
+      "description": "保守政党。地方分権、規制改革を重視。",
+      "website": "https://o-ishin.jp/",
+      "logo": "/images/parties/ishin.png"
+    }
+  ]
+} 

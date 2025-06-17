@@ -1,0 +1,61 @@
+{
+  "candidates": [
+    {
+      "id": "candidate1",
+      "name": "山田 太郎",
+      "partyId": "ldp",
+      "constituency": "東京都",
+      "age": 45,
+      "gender": "男性",
+      "occupation": "元官僚",
+      "career": [
+        "内閣府参事官",
+        "衆議院議員（2期）"
+      ],
+      "policies": [
+        "経済成長戦略の推進",
+        "社会保障制度の改革",
+        "教育の質の向上"
+      ],
+      "image": "/images/candidates/candidate1.jpg"
+    },
+    {
+      "id": "candidate2",
+      "name": "鈴木 花子",
+      "partyId": "cdp",
+      "constituency": "東京都",
+      "age": 38,
+      "gender": "女性",
+      "occupation": "弁護士",
+      "career": [
+        "人権派弁護士",
+        "NPO法人理事"
+      ],
+      "policies": [
+        "人権の尊重と多様性の推進",
+        "子育て支援の充実",
+        "環境対策の強化"
+      ],
+      "image": "/images/candidates/candidate2.jpg"
+    },
+    {
+      "id": "candidate3",
+      "name": "佐藤 一郎",
+      "partyId": "komei",
+      "constituency": "東京都",
+      "age": 52,
+      "gender": "男性",
+      "occupation": "元教員",
+      "career": [
+        "公立中学校教諭",
+        "教育委員会委員"
+      ],
+      "policies": [
+        "教育の無償化推進",
+        "福祉政策の充実",
+        "地域コミュニティの活性化"
+      ],
+      "image": "/images/candidates/candidate3.jpg"
+    }
+  ]
+} 
