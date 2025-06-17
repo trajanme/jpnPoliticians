@@ -17,7 +17,7 @@
         "社会保障制度の改革",
         "教育の質の向上"
       ],
-      "image": "/images/candidates/candidate1.jpg"
+      "image": "https://placehold.co/400x300/1E3A8A/FFFFFF/png?text=山田太郎"
     },
     {
       "id": "candidate2",
@@ -36,7 +36,7 @@
         "子育て支援の充実",
         "環境対策の強化"
       ],
-      "image": "/images/candidates/candidate2.jpg"
+      "image": "https://placehold.co/400x300/1E40AF/FFFFFF/png?text=鈴木花子"
     },
     {
       "id": "candidate3",
@@ -55,7 +55,7 @@
         "福祉政策の充実",
         "地域コミュニティの活性化"
       ],
-      "image": "/images/candidates/candidate3.jpg"
+      "image": "https://placehold.co/400x300/F59E0B/FFFFFF/png?text=佐藤一郎"
     }
   ]
 } 
