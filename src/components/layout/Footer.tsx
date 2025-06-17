@@ -4,13 +4,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-4 text-lg font-semibold">参議院選挙情報</h3>
+            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">参議院選挙情報</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               参議院選挙に関する情報を、公平・中立な立場で提供します。
             </p>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">リンク</h3>
+            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">リンク</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">お問い合わせ</h3>
+            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">お問い合わせ</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               ご意見・ご要望は
               <a

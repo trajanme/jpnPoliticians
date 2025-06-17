@@ -22,7 +22,7 @@ const CandidateCard = ({ candidate }: CandidateCardProps) => {
       </div>
       <div className="p-6">
         <div className="mb-2 flex items-center justify-between">
-          <h3 className="text-xl font-bold">{candidate.name}</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white">{candidate.name}</h3>
           {party && (
             <span
               className="rounded-full px-3 py-1 text-xs font-medium text-white"
@@ -36,7 +36,7 @@ const CandidateCard = ({ candidate }: CandidateCardProps) => {
           {candidate.constituency}選挙区
         </p>
         <div className="mb-4">
-          <h4 className="mb-2 text-sm font-semibold">主な政策</h4>
+          <h4 className="mb-2 text-sm font-semibold text-gray-900 dark:text-white">主な政策</h4>
           <ul className="list-inside list-disc text-sm text-gray-600 dark:text-gray-400">
             {candidate.policies.slice(0, 2).map((policy, index) => (
               <li key={index}>{policy}</li>

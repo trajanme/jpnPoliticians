@@ -14,7 +14,7 @@ const PartyCard = ({ party }: PartyCardProps) => {
     >
       <div className="p-6">
         <div className="mb-4 flex items-center justify-between">
-          <h3 className="text-xl font-bold">{party.name}</h3>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white">{party.name}</h3>
           <div className="relative h-12 w-12">
             <Image
               src={party.logo}
