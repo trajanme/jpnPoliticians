@@ -220,6 +220,159 @@
         "x": "https://x.com/Fullgen",
         "instagram": "https://www.instagram.com/motohisa_furukawa"
       }
+    },
+    {
+      "id": "pol14",
+      "name": "野田 佳彦",
+      "kana": "のだ よしひこ",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "衆議院",
+      "constituency": "千葉14区",
+      "electionCount": 10,
+      "firstElected": "1993",
+      "position": "代表",
+      "birthDate": "1957-05-20",
+      "sns": {
+        "x": "https://x.com/NODAYOSHI55"
+      }
+    },
+    {
+      "id": "pol15",
+      "name": "岸田 文雄",
+      "kana": "きしだ ふみお",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "広島1区",
+      "electionCount": 10,
+      "firstElected": "1993",
+      "position": "内閣総理大臣",
+      "birthDate": "1957-07-29",
+      "sns": {
+        "x": "https://x.com/kishida230",
+        "youtube": "https://www.youtube.com/@kishidafumio230",
+        "instagram": "https://www.instagram.com/fumio_kishida"
+      }
+    },
+    {
+      "id": "pol16",
+      "name": "麻生 太郎",
+      "kana": "あそう たろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "福岡8区",
+      "electionCount": 14,
+      "firstElected": "1979",
+      "position": "最高顧問",
+      "birthDate": "1940-09-20",
+      "sns": {}
+    },
+    {
+      "id": "pol17",
+      "name": "小川 淳也",
+      "kana": "おがわ じゅんや",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "衆議院",
+      "constituency": "香川1区",
+      "electionCount": 7,
+      "firstElected": "2005",
+      "position": "幹事長",
+      "birthDate": "1971-04-30",
+      "sns": {
+        "x": "https://x.com/junyaog",
+        "youtube": "https://www.youtube.com/@ogawa_junya",
+        "instagram": "https://www.instagram.com/ogawa_junya.kagawa"
+      }
+    },
+    {
+      "id": "pol18",
+      "name": "小泉 進次郎",
+      "kana": "こいずみ しんじろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "神奈川11区",
+      "electionCount": 5,
+      "firstElected": "2009",
+      "birthDate": "1981-04-14",
+      "sns": {
+        "x": "https://x.com/shinjirokoiz",
+        "instagram": "https://www.instagram.com/shinjiro.koizumi"
+      }
+    },
+    {
+      "id": "pol19",
+      "name": "斉藤 鉄夫",
+      "kana": "さいとう てつお",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "衆議院",
+      "constituency": "広島3区",
+      "electionCount": 11,
+      "firstElected": "1993",
+      "position": "代表",
+      "birthDate": "1952-02-05",
+      "sns": {
+        "x": "https://x.com/saitotetsuo",
+        "youtube": "https://www.youtube.com/@3110tetsuo",
+        "instagram": "https://www.instagram.com/saito.tetsuo999"
+      }
+    },
+    {
+      "id": "pol20",
+      "name": "岡本 三成",
+      "kana": "おかもと みつなり",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "衆議院",
+      "constituency": "東京29区",
+      "electionCount": 5,
+      "firstElected": "2012",
+      "position": "政調会長",
+      "birthDate": "1965-10-24",
+      "sns": {
+        "x": "https://x.com/okamoto3nari",
+        "instagram": "https://www.instagram.com/mitsunari.okamoto"
+      }
+    },
+    {
+      "id": "pol21",
+      "name": "山本 太郎",
+      "kana": "やまもと たろう",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2013",
+      "position": "代表",
+      "birthDate": "1974-11-24",
+      "sns": {
+        "x": "https://x.com/yamamototaro0",
+        "youtube": "https://www.youtube.com/@taroyamamoto_official",
+        "instagram": "https://www.instagram.com/shiminmedia"
+      }
+    },
+    {
+      "id": "pol22",
+      "name": "福島 瑞穂",
+      "kana": "ふくしま みずほ",
+      "partyId": "SDP",
+      "caucus": "社会民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 5,
+      "firstElected": "1998",
+      "position": "党首",
+      "birthDate": "1955-12-24",
+      "sns": {
+        "x": "https://x.com/mizuhofukushima",
+        "youtube": "https://www.youtube.com/@FukushimaMizuho",
+        "instagram": "https://www.instagram.com/mizuho_fukushima9"
+      }
     }
   ]
 } 

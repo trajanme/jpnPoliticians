@@ -51,14 +51,16 @@ const PartyCard = ({ party }: PartyCardProps) => {
           );
         })()}
         <div className="flex items-center justify-between">
-          <a
-            href={party.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md bg-blue-600 px-4 py-1 text-sm font-medium text-white hover:bg-blue-700"
-          >
-            公式サイト
-          </a>
+          {party.website && (
+            <a
+              href={party.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md bg-blue-600 px-4 py-1 text-sm font-medium text-white hover:bg-blue-700"
+            >
+              公式サイト
+            </a>
+          )}
           <Link
             href={`/parties/${party.id}`}
             className="ml-auto text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100"

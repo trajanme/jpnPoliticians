@@ -11,13 +11,14 @@ export default function PartiesPage() {
   const parties = getParties().sort(
     (a, b) => getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length,
   );
+  const displayPartyCount = parties.filter((p) => p.id !== 'IND').length;
 
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
         <div className="mb-4 flex items-baseline justify-between">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">政党一覧</h1>
-          <span className="text-sm text-gray-600 dark:text-gray-300">{parties.length} 政党</span>
+          <span className="text-sm text-gray-600 dark:text-gray-300">{displayPartyCount} 政党</span>
         </div>
         <p className="text-gray-600 dark:text-gray-300">
           政党名や概要、公式サイトへのリンクを確認できます。

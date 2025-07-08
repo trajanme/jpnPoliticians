@@ -6,8 +6,8 @@ import { getParty } from '@/utils/data';
 import { getPoliticiansByParty, compareSeniority, calculateAge } from '@/utils/politicians';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
 
-export function generateMetadata({ params }: any) {
-  const { id } = params;
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const party = getParty(id);
   
   if (!party) {
@@ -22,8 +22,8 @@ export function generateMetadata({ params }: any) {
   };
 }
 
-export default function PartyDetailPage({ params }: any) {
-  const { id } = params;
+export default async function PartyDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const party = getParty(id);
 
   if (!party) {

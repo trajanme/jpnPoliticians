@@ -6,7 +6,7 @@ export const PartySchema = z.object({
   shortName: z.string(),
   color: z.string(),
   description: z.string(),
-  website: z.string().url(),
+  website: z.string().url().optional(),
   logo: z.string().optional(),
   founded: z.number().optional(),
   policies: z.array(z.string()).optional(),
