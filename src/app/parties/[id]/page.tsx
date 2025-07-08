@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getParty } from '@/utils/data';
-import { getPoliticiansByParty, compareSeniority } from '@/utils/politicians';
+import { getPoliticiansByParty, compareSeniority, calculateAge } from '@/utils/politicians';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
 
 export function generateMetadata({ params }: any) {
@@ -33,6 +33,49 @@ export default function PartyDetailPage({ params }: any) {
   const politicians = getPoliticiansByParty(party.id).sort(compareSeniority);
   const lowerCount = politicians.filter((p) => p.house === '衆議院').length;
   const upperCount = politicians.filter((p) => p.house === '参議院').length;
+
+  // 年代分布
+  const ageBuckets = [
+    { key: '20s', label: '20代', color: '#4ade80', count: 0 },
+    { key: '30s', label: '30代', color: '#22d3ee', count: 0 },
+    { key: '40s', label: '40代', color: '#60a5fa', count: 0 },
+    { key: '50s', label: '50代', color: '#818cf8', count: 0 },
+    { key: '60s', label: '60代', color: '#a78bfa', count: 0 },
+    { key: '70s', label: '70代以上', color: '#c084fc', count: 0 },
+  ];
+
+  politicians.forEach((p) => {
+    if (!p.birthDate) return;
+    const age = calculateAge(p.birthDate);
+    if (age < 30) ageBuckets[0].count++;
+    else if (age < 40) ageBuckets[1].count++;
+    else if (age < 50) ageBuckets[2].count++;
+    else if (age < 60) ageBuckets[3].count++;
+    else if (age < 70) ageBuckets[4].count++;
+    else ageBuckets[5].count++;
+  });
+
+  // SNS 利用状況集計
+  const snsStats = [
+    {
+      key: 'x',
+      label: '𝕏',
+      color: '#000000',
+      count: politicians.filter((p) => p.sns?.x).length,
+    },
+    {
+      key: 'youtube',
+      label: 'YouTube',
+      color: '#DC2626', // red-600
+      count: politicians.filter((p) => p.sns?.youtube).length,
+    },
+    {
+      key: 'instagram',
+      label: 'Instagram',
+      color: '#DB2777', // pink-600
+      count: politicians.filter((p) => p.sns?.instagram).length,
+    },
+  ];
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -123,6 +166,65 @@ export default function PartyDetailPage({ params }: any) {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+      )}
+
+      {/* 年代分布 */}
+      {politicians.length > 0 && (
+        <div className="mb-12">
+          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">年代分布</h2>
+          <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
+            {ageBuckets.map(({ key, color, count }) => {
+              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+              return (
+                <div
+                  key={key}
+                  style={{ width: `${percent}%`, backgroundColor: color }}
+                  className="h-full"
+                />
+              );
+            })}
+          </div>
+          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-6">
+            {ageBuckets.map(({ key, label, color, count }) => {
+              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+              return (
+                <div key={key} className="flex items-center space-x-1">
+                  <span className="inline-block h-3 w-3 rounded" style={{ backgroundColor: color }} />
+                  <span>{label}</span>
+                  <span className="ml-auto">{count} ({percent.toFixed(1)}%)</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* SNS 利用状況 */}
+      {politicians.length > 0 && (
+        <div className="mb-12">
+          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">SNS 利用状況</h2>
+          <div className="space-y-4">
+            {snsStats.map(({ key, label, color, count }) => {
+              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+              return (
+                <div key={key}>
+                  <div className="mb-1 flex justify-between text-sm font-medium text-gray-700 dark:text-gray-200">
+                    <span>{label}</span>
+                    <span>
+                      {count} / {politicians.length} ({percent.toFixed(1)}%)
+                    </span>
+                  </div>
+                  <div className="h-3 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+                    <div
+                      className="h-full"
+                      style={{ width: `${percent}%`, backgroundColor: color }}
+                    />
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       )}

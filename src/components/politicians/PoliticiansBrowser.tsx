@@ -14,19 +14,32 @@ const PoliticiansBrowser = ({ politicians }: Props) => {
   const parties = getParties();
 
   const [selectedParty, setSelectedParty] = useState('');
+  const [selectedHouse, setSelectedHouse] = useState('');
 
   const filteredAndSorted = useMemo(() => {
     const filtered = politicians.filter((p) => {
-      return selectedParty ? p.partyId === selectedParty : true;
+      const okParty = selectedParty ? p.partyId === selectedParty : true;
+      const okHouse = selectedHouse ? p.house === selectedHouse : true;
+      return okParty && okHouse;
     });
 
     return filtered.sort(compareSeniority);
-  }, [politicians, selectedParty]);
+  }, [politicians, selectedParty, selectedHouse]);
 
   return (
     <div>
       {/* Filter bar */}
       <div className="mb-6 flex flex-wrap gap-4">
+        <select
+          className="rounded border border-gray-300 bg-white p-2 text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+          value={selectedHouse}
+          onChange={(e) => setSelectedHouse(e.target.value)}
+        >
+          <option value="">すべて</option>
+          <option value="衆議院">衆議院</option>
+          <option value="参議院">参議院</option>
+        </select>
+
         <select
           className="rounded border border-gray-300 bg-white p-2 text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
           value={selectedParty}

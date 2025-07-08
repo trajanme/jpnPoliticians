@@ -177,6 +177,7 @@
       "constituency": "大阪13区",
       "electionCount": 2,
       "firstElected": "2021",
+      "position": "幹事長",
       "birthDate": "1980-06-07",
       "sns": {
         "x": "https://x.com/Iwatani_Ryohei",
@@ -194,11 +195,30 @@
       "constituency": "愛知",
       "electionCount": 2,
       "firstElected": "2016",
+      "position": "広報委員長",
       "birthDate": "1975-06-30",
       "sns": {
         "youtube": "https://www.youtube.com/@itoutakae",
         "x": "https://x.com/itotakae0630",
         "instagram": "https://www.instagram.com/itotakae"
+      }
+    },
+    {
+      "id": "pol13",
+      "name": "古川 元久",
+      "kana": "ふるかわ もとひさ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "愛知2区",
+      "electionCount": 10,
+      "firstElected": "1996",
+      "position": "代表代行兼国会対策委員長",
+      "birthDate": "1965-12-06",
+      "sns": {
+        "youtube": "https://www.youtube.com/@MotohisaFurukawa",
+        "x": "https://x.com/Fullgen",
+        "instagram": "https://www.instagram.com/motohisa_furukawa"
       }
     }
   ]
