@@ -7,8 +7,9 @@ import Layout from "@/components/layout/Layout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "参議院選挙情報",
-  description: "参議院選挙に関する情報を、公平・中立な立場で提供します。",
+  title: "国会議員検索サービス",
+  description: "衆議院および参議院の現職議員情報を検索・閲覧できるサービスです。",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({

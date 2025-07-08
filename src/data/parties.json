@@ -1,49 +1,36 @@
 {
   "parties": [
     {
-      "id": "ldp",
+      "id": "LDP",
       "name": "自由民主党",
-      "shortName": "自民党",
+      "shortName": "自民",
       "color": "#1E3A8A",
       "description": "保守政党。憲法改正、経済成長、安全保障を重視。",
-      "website": "https://www.jimin.jp/",
-      "logo": "https://placehold.co/200x200/1E3A8A/FFFFFF/png?text=自民党"
+      "website": "https://www.jimin.jp/"
     },
     {
-      "id": "cdp",
-      "name": "立憲民主党",
-      "shortName": "立民党",
-      "color": "#1E40AF",
-      "description": "リベラル政党。人権、民主主義、平和を重視。",
-      "website": "https://cdp-japan.jp/",
-      "logo": "https://placehold.co/200x200/1E40AF/FFFFFF/png?text=立民党"
-    },
-    {
-      "id": "komei",
-      "name": "公明党",
-      "shortName": "公明党",
-      "color": "#F59E0B",
-      "description": "中道政党。福祉、教育、平和を重視。",
-      "website": "https://www.komei.or.jp/",
-      "logo": "https://placehold.co/200x200/F59E0B/FFFFFF/png?text=公明党"
-    },
-    {
-      "id": "jcp",
-      "name": "日本共産党",
-      "shortName": "共産党",
-      "color": "#DC2626",
-      "description": "革新政党。平和、民主主義、福祉を重視。",
-      "website": "https://www.jcp.or.jp/",
-      "logo": "https://placehold.co/200x200/DC2626/FFFFFF/png?text=共産党"
-    },
-    {
-      "id": "ishin",
+      "id": "JIP",
       "name": "日本維新の会",
       "shortName": "維新",
-      "color": "#059669",
-      "description": "保守政党。地方分権、規制改革を重視。",
-      "website": "https://o-ishin.jp/",
-      "logo": "https://placehold.co/200x200/059669/FFFFFF/png?text=維新"
+      "color": "#099543",
+      "description": "改革保守政党。統治機構改革、経済成長戦略、社会保障改革を掲げる。",
+      "website": "https://o-ishin.jp/"
+    },
+    {
+      "id": "DPP",
+      "name": "国民民主党",
+      "shortName": "国民民主",
+      "color": "#0E7AEF",
+      "description": "中道政党。国民の手取り増や実現を掲げる。",
+      "website": "https://new-kokumin.jp/"
+    },
+    {
+      "id": "PDY",
+      "name": "参政党",
+      "shortName": "参政党",
+      "color": "#FF6F00",
+      "description": "2020年に結党した保守系政党。『自分たちの国は自分たちで守る』を掲げ、教育・食と健康・国のまもりを三本柱に活動する。",
+      "website": "https://sanseito.jp/"
     }
   ]
 } 
