@@ -24,7 +24,7 @@
       "partyId": "LDP",
       "caucus": "自由民主党",
       "house": "参議院",
-      "constituency": "全国比例",
+      "constituency": "全国(比例)",
       "electionCount": 1,
       "firstElected": "2019",
       "birthDate": "1967-11-09",
@@ -112,6 +112,7 @@
       "constituency": "茨城5区",
       "electionCount": 3,
       "firstElected": "2017",
+      "position": "選挙対策委員長代行兼青年局長",
       "birthDate": "1982-09-25",
       "sns": {
         "youtube": "https://www.youtube.com/@asano__satoshi",
@@ -126,7 +127,7 @@
       "partyId": "LDP",
       "caucus": "自由民主党",
       "house": "参議院",
-      "constituency": "全国比例",
+      "constituency": "全国(比例)",
       "electionCount": 1,
       "firstElected": "2022",
       "birthDate": "1979-01-06",
@@ -181,6 +182,23 @@
         "x": "https://x.com/Iwatani_Ryohei",
         "youtube": "https://www.youtube.com/@%E5%85%AC%E5%BC%8F%E6%97%A5%E6%9C%AC%E7%B6%AD%E6%96%B0%E3%81%AE%E4%BC%9A%E5%B2%A9%E8%B0%B7",
         "instagram": "https://www.instagram.com/ryohei.iwatani.higashi_osaka"
+      }
+    },
+    {
+      "id": "pol12",
+      "name": "伊藤 孝恵",
+      "kana": "いとう たかえ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "愛知",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1975-06-30",
+      "sns": {
+        "youtube": "https://www.youtube.com/@itoutakae",
+        "x": "https://x.com/itotakae0630",
+        "instagram": "https://www.instagram.com/itotakae"
       }
     }
   ]

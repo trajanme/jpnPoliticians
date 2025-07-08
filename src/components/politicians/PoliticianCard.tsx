@@ -16,13 +16,20 @@ const PoliticianCard = ({ politician }: Props) => {
   const iconClass =
     'inline-flex h-8 w-8 items-center justify-center rounded-full text-white transition-opacity disabled:opacity-30';
 
+  const containerStyle = party?.color
+    ? { borderTopColor: party.color, borderTopWidth: '4px' }
+    : undefined;
+
   return (
-    <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900">
+    <div
+      className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+      style={containerStyle}
+    >
       <div className="p-6">
         <div className="mb-3">
           <h3 className="text-xl font-bold text-gray-900 dark:text-white">
             {politician.name}
-            <span className="ml-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+            <span className="ml-2 text-sm font-normal text-gray-500 dark:text-gray-300">
               ({politician.kana})
             </span>
           </h3>
@@ -41,14 +48,14 @@ const PoliticianCard = ({ politician }: Props) => {
             </p>
           )}
         </div>
-        <p className="mb-1 text-sm text-gray-600 dark:text-gray-400">
+        <p className="mb-1 text-sm text-gray-600 dark:text-gray-300">
           {politician.house} / {politician.constituency}
         </p>
-        <p className="mb-1 text-sm text-gray-600 dark:text-gray-400">
+        <p className="mb-1 text-sm text-gray-600 dark:text-gray-300">
           当選回数: {politician.electionCount} / 初当選: {politician.firstElected}
         </p>
         {age !== undefined && (
-          <p className="mb-4 text-sm text-gray-600 dark:text-gray-400">年齢: {age}歳</p>
+          <p className="mb-4 text-sm text-gray-600 dark:text-gray-300">年齢: {age}歳</p>
         )}
 
         {/* SNS Buttons */}

@@ -1,10 +1,13 @@
 import { getParties } from '@/utils/data';
-import { getPoliticians, compareSeniority } from '@/utils/politicians';
+import { getPoliticians, compareSeniority, getPoliticiansByParty } from '@/utils/politicians';
 import PartyCard from '@/components/parties/PartyCard';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
 
 export default function Home() {
-  const parties = getParties();
+  const parties = getParties().sort(
+    (a, b) =>
+      getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length,
+  );
   const politicians = getPoliticians().sort(compareSeniority);
 
   const TOTAL_MEMBERS = 713;
@@ -22,7 +25,10 @@ export default function Home() {
         </p>
       </div>
       <section className="mb-12">
-        <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">政党一覧</h2>
+        <div className="mb-6 flex items-baseline justify-between">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">政党一覧</h2>
+          <span className="text-sm text-gray-600 dark:text-gray-300">{parties.length} 政党</span>
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {parties.map((party) => (
             <PartyCard key={party.id} party={party} />
@@ -31,7 +37,10 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">議員一覧</h2>
+        <div className="mb-6 flex items-baseline justify-between">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">議員一覧</h2>
+          <span className="text-sm text-gray-600 dark:text-gray-300">{politicians.length} 人</span>
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {politicians.map((politician) => (
             <PoliticianCard key={politician.id} politician={politician} />

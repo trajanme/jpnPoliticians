@@ -26,17 +26,14 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   useEffect(() => {
+    // Force light mode: remove any existing dark class and store preference as light
     const root = window.document.documentElement;
     root.classList.remove('dark');
-    if (theme === 'dark') {
-      root.classList.add('dark');
-    }
-    localStorage.setItem('theme', theme);
+    localStorage.setItem('theme', 'light');
   }, [theme]);
 
-  const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
-  };
+  // Toggle does nothing (dark mode disabled)
+  const toggleTheme = () => {};
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

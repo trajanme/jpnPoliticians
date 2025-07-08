@@ -1,4 +1,5 @@
 import { getParties } from '@/utils/data';
+import { getPoliticiansByParty } from '@/utils/politicians';
 import PartyCard from '@/components/parties/PartyCard';
 
 export const metadata = {
@@ -7,13 +8,18 @@ export const metadata = {
 };
 
 export default function PartiesPage() {
-  const parties = getParties();
+  const parties = getParties().sort(
+    (a, b) => getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length,
+  );
 
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white">政党一覧</h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <div className="mb-4 flex items-baseline justify-between">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">政党一覧</h1>
+          <span className="text-sm text-gray-600 dark:text-gray-300">{parties.length} 政党</span>
+        </div>
+        <p className="text-gray-600 dark:text-gray-300">
           政党名や概要、公式サイトへのリンクを確認できます。
         </p>
       </div>

@@ -13,26 +13,15 @@ interface Props {
 const PoliticiansBrowser = ({ politicians }: Props) => {
   const parties = getParties();
 
-  const caucusList = useMemo(() => {
-    const set = new Set<string>();
-    politicians.forEach((p) => {
-      if (p.caucus) set.add(p.caucus);
-    });
-    return Array.from(set);
-  }, [politicians]);
-
   const [selectedParty, setSelectedParty] = useState('');
-  const [selectedCaucus, setSelectedCaucus] = useState('');
 
   const filteredAndSorted = useMemo(() => {
     const filtered = politicians.filter((p) => {
-      const okParty = selectedParty ? p.partyId === selectedParty : true;
-      const okCaucus = selectedCaucus ? p.caucus === selectedCaucus : true;
-      return okParty && okCaucus;
+      return selectedParty ? p.partyId === selectedParty : true;
     });
 
     return filtered.sort(compareSeniority);
-  }, [politicians, selectedParty, selectedCaucus]);
+  }, [politicians, selectedParty]);
 
   return (
     <div>
@@ -51,18 +40,6 @@ const PoliticiansBrowser = ({ politicians }: Props) => {
           ))}
         </select>
 
-        <select
-          className="rounded border border-gray-300 bg-white p-2 text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
-          value={selectedCaucus}
-          onChange={(e) => setSelectedCaucus(e.target.value)}
-        >
-          <option value="">すべての会派</option>
-          {caucusList.map((c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
-          ))}
-        </select>
       </div>
 
       {/* Grid */}

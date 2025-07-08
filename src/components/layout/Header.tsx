@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import ThemeToggle from '../theme/ThemeToggle';
 import { useState } from 'react';
 
 const Header = () => {
@@ -32,21 +31,17 @@ const Header = () => {
                     className={`text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-100 ${
                       pathname === item.href
                         ? 'text-gray-900 dark:text-gray-100'
-                        : 'text-gray-500 dark:text-gray-400'
+                        : 'text-gray-500 dark:text-gray-300'
                     }`}
                   >
                     {item.label}
                   </Link>
                 </li>
               ))}
-              <li>
-                <ThemeToggle />
-              </li>
             </ul>
           </nav>
           {/* モバイル右側アイコン */}
           <div className="flex items-center space-x-4 md:hidden">
-            <ThemeToggle />
             <button
               className="md:hidden focus:outline-none"
               aria-label="メニュー"
@@ -115,7 +110,7 @@ const Header = () => {
                       className={`block text-base font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-100 ${
                         pathname === item.href
                           ? 'text-gray-900 dark:text-gray-100'
-                          : 'text-gray-600 dark:text-gray-400'
+                          : 'text-gray-600 dark:text-gray-300'
                       }`}
                     >
                       {item.label}
@@ -125,7 +120,7 @@ const Header = () => {
               </ul>
 
               <div className="mt-6">
-                <ThemeToggle />
+                {/* ThemeToggle removed */}
               </div>
             </nav>
           </div>

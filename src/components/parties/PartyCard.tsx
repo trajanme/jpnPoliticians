@@ -20,7 +20,7 @@ const PartyCard = ({ party }: PartyCardProps) => {
               {party.name}
             </h3>
             {party.shortName && (
-              <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{party.shortName}</p>
+              <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">{party.shortName}</p>
             )}
           </div>
           {party.logo && (
@@ -34,7 +34,7 @@ const PartyCard = ({ party }: PartyCardProps) => {
             </div>
           )}
         </div>
-        <p className="mb-2 text-sm text-gray-600 dark:text-gray-400">
+        <p className="mb-2 text-sm text-gray-600 dark:text-gray-300">
           {party.description}
         </p>
         {(() => {
