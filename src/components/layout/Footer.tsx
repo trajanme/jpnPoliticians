@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">参議院選挙情報</h3>
+            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">国会議員検索サービス</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              参議院選挙に関する情報を、公平・中立な立場で提供します。
+              衆議院・参議院の現職議員データを閲覧できる非公式サイトです。
             </p>
           </div>
           <div>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600 dark:border-gray-800 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} 参議院選挙情報. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} 国会議員検索サービス. All rights reserved.</p>
         </div>
       </div>
     </footer>

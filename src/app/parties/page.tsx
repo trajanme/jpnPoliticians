@@ -2,8 +2,8 @@ import { getParties } from '@/utils/data';
 import PartyCard from '@/components/parties/PartyCard';
 
 export const metadata = {
-  title: '政党一覧 | 参議院選挙情報',
-  description: '参議院選挙に参加する政党の一覧です。各政党の基本情報、政策、公式サイトを確認できます。',
+  title: '政党一覧 | 国会議員検索サービス',
+  description: '主要政党の基本情報を一覧で表示します。',
 };
 
 export default function PartiesPage() {
@@ -14,7 +14,7 @@ export default function PartiesPage() {
       <div className="mb-8">
         <h1 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white">政党一覧</h1>
         <p className="text-gray-600 dark:text-gray-400">
-          参議院選挙に参加する政党の一覧です。各政党の基本情報、政策、公式サイトを確認できます。
+          政党名や概要、公式サイトへのリンクを確認できます。
         </p>
       </div>
 
