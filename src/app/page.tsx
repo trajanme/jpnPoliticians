@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { getParties } from '@/utils/data';
-import { getPoliticians, compareSeniority, getPoliticiansByParty, calculateAge } from '@/utils/politicians';
+import { getPoliticians, getPoliticiansByParty, calculateAge } from '@/utils/politicians';
 
 type ViewType = 'all' | 'lower' | 'upper';
 
@@ -17,7 +17,7 @@ export default function Home() {
     // 与党同士、野党同士は人数順
     return getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length;
   });
-  const allPoliticians = getPoliticians().sort(compareSeniority);
+  const allPoliticians = getPoliticians();
   
   // 表示する議員をフィルタリング
   const politicians = viewType === 'all' 
