@@ -9,8 +9,9 @@ interface PartyCardProps {
 
 const PartyCard = ({ party }: PartyCardProps) => {
   return (
-    <div
-      className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+    <Link
+      href={`/parties/${party.id}`}
+      className="block overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
       style={{ borderTopColor: party.color, borderTopWidth: '4px' }}
     >
       <div className="p-6">
@@ -57,19 +58,17 @@ const PartyCard = ({ party }: PartyCardProps) => {
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-md bg-blue-600 px-4 py-1 text-sm font-medium text-white hover:bg-blue-700"
+              onClick={(e) => e.stopPropagation()}
             >
               公式サイト
             </a>
           )}
-          <Link
-            href={`/parties/${party.id}`}
-            className="ml-auto text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100"
-          >
+          <span className="ml-auto text-sm font-medium text-gray-700 dark:text-gray-300">
             詳細を見る<span className="ml-1">&gt;</span>
-          </Link>
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

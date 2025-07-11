@@ -10,10 +10,13 @@ type ViewType = 'all' | 'lower' | 'upper';
 export default function Home() {
   const [viewType, setViewType] = useState<ViewType>('all');
   
-  const parties = getParties().sort(
-    (a, b) =>
-      getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length,
-  );
+  const parties = getParties().sort((a, b) => {
+    // 与党を優先表示
+    if (a.isRuling && !b.isRuling) return -1;
+    if (!a.isRuling && b.isRuling) return 1;
+    // 与党同士、野党同士は人数順
+    return getPoliticiansByParty(b.id).length - getPoliticiansByParty(a.id).length;
+  });
   const allPoliticians = getPoliticians().sort(compareSeniority);
   
   // 表示する議員をフィルタリング
@@ -26,15 +29,13 @@ export default function Home() {
 
   // 政党別人数集計
   const partyStats = parties
-    .filter(party => party.id !== 'IND' && party.id !== 'OTH')
     .map(party => {
       const count = getPoliticiansByParty(party.id).filter(p => 
         viewType === 'all' || p.house === (viewType === 'lower' ? '衆議院' : '参議院')
       ).length;
       return { ...party, count };
     })
-    .filter(party => party.count > 0)
-    .sort((a, b) => b.count - a.count);
+    .filter(party => party.count > 0);
 
   // 年齢分布計算
   const ageBuckets = [
@@ -148,6 +149,16 @@ export default function Home() {
         </div>
         
         <div className="relative h-16 w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
+          {/* 過半数を示す破線 */}
+          <div 
+            className="absolute top-0 h-full w-0.5 border-l-2 border-dashed border-red-600 dark:border-red-400 z-10"
+            style={{ 
+              left: `${(majorityThreshold / totalCount) * 100}%`,
+              opacity: 0.3
+            }}
+            title={`過半数: ${majorityThreshold}人`}
+          />
+          
           {partyStats.map((party, index) => {
             const width = (party.count / totalCount) * 100;
             const left = partyStats
@@ -178,16 +189,19 @@ export default function Home() {
         
         {/* 凡例 */}
         <div className="mt-4 grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {partyStats.map((party) => (
-            <div key={party.id} className="flex items-center space-x-2">
-              <span 
-                className="inline-block h-3 w-3 rounded" 
-                style={{ backgroundColor: party.color }} 
-              />
-              <span className="truncate">{party.name}</span>
-              <span className="ml-auto font-medium">{party.count}</span>
-            </div>
-          ))}
+          {partyStats.map((party) => {
+            const percent = (party.count / totalCount) * 100;
+            return (
+              <div key={party.id} className="flex items-center space-x-2">
+                <span 
+                  className="inline-block h-3 w-3 rounded" 
+                  style={{ backgroundColor: party.color }} 
+                />
+                <span className="truncate">{party.name}</span>
+                <span className="ml-auto font-medium">{party.count} ({percent.toFixed(1)}%)</span>
+              </div>
+            );
+          })}
         </div>
       </div>
 
@@ -270,7 +284,7 @@ export default function Home() {
                   <div className="mb-1 flex justify-between text-sm font-medium text-gray-700 dark:text-gray-200">
                     <span>{label}</span>
                     <span>
-                      {count} / {politicians.length} ({percent.toFixed(1)}%)
+                      {count} ({percent.toFixed(1)}%)
                     </span>
                   </div>
                   <div className="h-3 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">

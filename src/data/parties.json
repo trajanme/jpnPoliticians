@@ -6,7 +6,8 @@
       "shortName": "自民",
       "color": "#3CA324",
       "description": "保守政党。憲法改正、経済成長、安全保障を重視。",
-      "website": "https://www.jimin.jp/"
+      "website": "https://www.jimin.jp/",
+      "isRuling": true
     },
     {
       "id": "CDP",
@@ -14,7 +15,8 @@
       "shortName": "立憲",
       "color": "#184589",
       "description": "リベラル・中道左派政党。立憲主義の擁護、社会保障の充実、多様性の尊重を掲げる。",
-      "website": "https://cdp-japan.jp/"
+      "website": "https://cdp-japan.jp/",
+      "isRuling": false
     },
     {
       "id": "JIP",
@@ -22,7 +24,8 @@
       "shortName": "維新",
       "color": "#6FBA2C",
       "description": "改革保守政党。統治機構改革、経済成長戦略、社会保障改革を掲げる。",
-      "website": "https://o-ishin.jp/"
+      "website": "https://o-ishin.jp/",
+      "isRuling": false
     },
     {
       "id": "DPP",
@@ -30,7 +33,8 @@
       "shortName": "国民",
       "color": "#F5B500",
       "description": "中道政党。国民の手取り増や実現を掲げる。",
-      "website": "https://new-kokumin.jp/"
+      "website": "https://new-kokumin.jp/",
+      "isRuling": false
     },
     {
       "id": "PDY",
@@ -38,7 +42,8 @@
       "shortName": "参政",
       "color": "#D85D0F",
       "description": "2020年に結党した保守系政党。『自分たちの国は自分たちで守る』を掲げ、教育・食と健康・国のまもりを三本柱に活動する。",
-      "website": "https://sanseito.jp/"
+      "website": "https://sanseito.jp/",
+      "isRuling": false
     },
     {
       "id": "KMT",
@@ -46,7 +51,8 @@
       "shortName": "公明",
       "color": "#F55881",
       "description": "中道主義・平和主義を掲げる政党。福祉や教育支援に重点を置く。",
-      "website": "https://www.komei.or.jp/"
+      "website": "https://www.komei.or.jp/",
+      "isRuling": true
     },
     {
       "id": "RS",
@@ -54,7 +60,8 @@
       "shortName": "れいわ",
       "color": "#E5007F",
       "description": "2019年結党。弱者救済と経済政策『消費税廃止』などを掲げる。",
-      "website": "https://www.reiwa-shinsengumi.com/"
+      "website": "https://www.reiwa-shinsengumi.com/",
+      "isRuling": false
     },
     {
       "id": "JCPN",
@@ -62,7 +69,8 @@
       "shortName": "保守",
       "color": "#0A82DC",
       "description": "2023年発足の保守政党。伝統や主権を重視した政策を掲げる。",
-      "website": "https://hoshuto.jp/"
+      "website": "https://hoshuto.jp/",
+      "isRuling": false
     },
     {
       "id": "SDP",
@@ -70,7 +78,8 @@
       "shortName": "社民",
       "color": "#01A8EC",
       "description": "リベラル・社会民主主義を掲げる政党。平和・人権・福祉の充実を重視。",
-      "website": "https://sdp.or.jp/"
+      "website": "https://sdp.or.jp/",
+      "isRuling": false
     },
     {
       "id": "JCP",
@@ -78,21 +87,24 @@
       "shortName": "共産",
       "color": "#DB001C",
       "description": "革新・左派政党。平和憲法の擁護、格差是正、環境保護を掲げる。",
-      "website": "https://www.jcp.or.jp/"
+      "website": "https://www.jcp.or.jp/",
+      "isRuling": false
     },
     {
       "id": "IND",
       "name": "無所属",
       "shortName": "無所属",
       "color": "#DFDFDF",
-      "description": "政党に所属しない議員。"
+      "description": "政党に所属しない議員。",
+      "isRuling": false
     },
     {
       "id": "OTH",
       "name": "諸派",
       "shortName": "諸派",
       "color": "#9CA3AF",
-      "description": "その他の小政党や政治団体に所属する議員。"
+      "description": "その他の小政党や政治団体に所属する議員。",
+      "isRuling": false
     }
   ]
 } 

@@ -10,6 +10,7 @@ export const PartySchema = z.object({
   logo: z.string().optional(),
   founded: z.number().optional(),
   policies: z.array(z.string()).optional(),
+  isRuling: z.boolean().optional(),
 });
 
 // 型
