@@ -12,6 +12,7 @@ const Header = () => {
     { href: '/', label: 'ホーム' },
     { href: '/parties', label: '政党' },
     { href: '/politicians', label: '国会議員' },
+    { href: '/faq', label: 'よくある質問' },
   ];
 
   return (

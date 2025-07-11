@@ -4,7 +4,7 @@
       "id": "LDP",
       "name": "自由民主党",
       "shortName": "自民",
-      "color": "#1E3A8A",
+      "color": "#3CA324",
       "description": "保守政党。憲法改正、経済成長、安全保障を重視。",
       "website": "https://www.jimin.jp/"
     },
@@ -12,7 +12,7 @@
       "id": "CDP",
       "name": "立憲民主党",
       "shortName": "立憲",
-      "color": "#004098",
+      "color": "#184589",
       "description": "リベラル・中道左派政党。立憲主義の擁護、社会保障の充実、多様性の尊重を掲げる。",
       "website": "https://cdp-japan.jp/"
     },
@@ -20,7 +20,7 @@
       "id": "JIP",
       "name": "日本維新の会",
       "shortName": "維新",
-      "color": "#099543",
+      "color": "#6FBA2C",
       "description": "改革保守政党。統治機構改革、経済成長戦略、社会保障改革を掲げる。",
       "website": "https://o-ishin.jp/"
     },
@@ -28,7 +28,7 @@
       "id": "DPP",
       "name": "国民民主党",
       "shortName": "国民",
-      "color": "#0E7AEF",
+      "color": "#F5B500",
       "description": "中道政党。国民の手取り増や実現を掲げる。",
       "website": "https://new-kokumin.jp/"
     },
@@ -36,7 +36,7 @@
       "id": "PDY",
       "name": "参政党",
       "shortName": "参政",
-      "color": "#FF6F00",
+      "color": "#D85D0F",
       "description": "2020年に結党した保守系政党。『自分たちの国は自分たちで守る』を掲げ、教育・食と健康・国のまもりを三本柱に活動する。",
       "website": "https://sanseito.jp/"
     },
@@ -44,7 +44,7 @@
       "id": "KMT",
       "name": "公明党",
       "shortName": "公明",
-      "color": "#FFC20E",
+      "color": "#F55881",
       "description": "中道主義・平和主義を掲げる政党。福祉や教育支援に重点を置く。",
       "website": "https://www.komei.or.jp/"
     },
@@ -52,7 +52,7 @@
       "id": "RS",
       "name": "れいわ新選組",
       "shortName": "れいわ",
-      "color": "#ED1B34",
+      "color": "#E5007F",
       "description": "2019年結党。弱者救済と経済政策『消費税廃止』などを掲げる。",
       "website": "https://www.reiwa-shinsengumi.com/"
     },
@@ -60,7 +60,7 @@
       "id": "JCPN",
       "name": "日本保守党",
       "shortName": "保守",
-      "color": "#B71C1C",
+      "color": "#0A82DC",
       "description": "2023年発足の保守政党。伝統や主権を重視した政策を掲げる。",
       "website": "https://hoshuto.jp/"
     },
@@ -68,7 +68,7 @@
       "id": "SDP",
       "name": "社会民主党",
       "shortName": "社民",
-      "color": "#00A0E9",
+      "color": "#01A8EC",
       "description": "リベラル・社会民主主義を掲げる政党。平和・人権・福祉の充実を重視。",
       "website": "https://sdp.or.jp/"
     },
@@ -76,7 +76,7 @@
       "id": "JCP",
       "name": "日本共産党",
       "shortName": "共産",
-      "color": "#CC0000",
+      "color": "#DB001C",
       "description": "革新・左派政党。平和憲法の擁護、格差是正、環境保護を掲げる。",
       "website": "https://www.jcp.or.jp/"
     },
@@ -84,8 +84,15 @@
       "id": "IND",
       "name": "無所属",
       "shortName": "無所属",
-      "color": "#6B7280",
+      "color": "#DFDFDF",
       "description": "政党に所属しない議員。"
+    },
+    {
+      "id": "OTH",
+      "name": "諸派",
+      "shortName": "諸派",
+      "color": "#9CA3AF",
+      "description": "その他の小政党や政治団体に所属する議員。"
     }
   ]
 } 

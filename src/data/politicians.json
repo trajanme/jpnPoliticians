@@ -11,6 +11,7 @@
       "electionCount": 1,
       "firstElected": "2024",
       "birthDate": "1984-01-04",
+      "gender": "男性",
       "sns": {
         "youtube": "https://www.youtube.com/@TeamFukasaku",
         "x": "https://x.com/FukasakuKj",
@@ -28,6 +29,7 @@
       "electionCount": 1,
       "firstElected": "2019",
       "birthDate": "1967-11-09",
+      "gender": "女性",
       "sns": {
         "x": "https://x.com/89314honda"
       }
@@ -44,8 +46,10 @@
       "firstElected": "2001",
       "position": "幹事長",
       "birthDate": "1967-04-25",
+      "gender": "男性",
       "sns": {
-        "x": "https://x.com/SHIMBA_OFFICE"
+        "x": "https://x.com/SHIMBA_OFFICE",
+        "youtube": "https://www.youtube.com/@%E3%81%97%E3%82%93%E3%81%B0%E3%81%8B%E3%81%A5%E3%82%84%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"
       }
     },
     {
@@ -60,6 +64,7 @@
       "firstElected": "2009",
       "position": "代表",
       "birthDate": "1969-05-01",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/tamakiyuichiro",
         "youtube": "https://www.youtube.com/@tamaki-channel",
@@ -78,6 +83,7 @@
       "firstElected": "1986",
       "position": "総裁",
       "birthDate": "1957-02-04",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/shigeruishiba",
         "youtube": "https://www.youtube.com/@ishibach",
@@ -96,6 +102,7 @@
       "firstElected": "2022",
       "position": "代表",
       "birthDate": "1977-10-12",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/jinkamiya",
         "youtube": "https://www.youtube.com/@ChGrandStrategy",
@@ -114,6 +121,7 @@
       "firstElected": "2017",
       "position": "選挙対策委員長代行兼青年局長",
       "birthDate": "1982-09-25",
+      "gender": "男性",
       "sns": {
         "youtube": "https://www.youtube.com/@asano__satoshi",
         "x": "https://x.com/Asano__Satoshi",
@@ -131,6 +139,7 @@
       "electionCount": 1,
       "firstElected": "2022",
       "birthDate": "1979-01-06",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/kamiyamasayuki_"
       }
@@ -147,6 +156,7 @@
       "firstElected": "2004",
       "position": "幹事長",
       "birthDate": "1945-04-08",
+      "gender": "男性",
       "sns": {
       }
     },
@@ -161,6 +171,7 @@
       "electionCount": 8,
       "firstElected": "1996",
       "birthDate": "1948-12-06",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/sugawitter",
         "youtube": "https://www.youtube.com/@sugayoshihide",
@@ -179,6 +190,7 @@
       "firstElected": "2021",
       "position": "幹事長",
       "birthDate": "1980-06-07",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/Iwatani_Ryohei",
         "youtube": "https://www.youtube.com/@%E5%85%AC%E5%BC%8F%E6%97%A5%E6%9C%AC%E7%B6%AD%E6%96%B0%E3%81%AE%E4%BC%9A%E5%B2%A9%E8%B0%B7",
@@ -197,6 +209,7 @@
       "firstElected": "2016",
       "position": "広報委員長",
       "birthDate": "1975-06-30",
+      "gender": "女性",
       "sns": {
         "youtube": "https://www.youtube.com/@itoutakae",
         "x": "https://x.com/itotakae0630",
@@ -215,6 +228,7 @@
       "firstElected": "1996",
       "position": "代表代行兼国会対策委員長",
       "birthDate": "1965-12-06",
+      "gender": "男性",
       "sns": {
         "youtube": "https://www.youtube.com/@MotohisaFurukawa",
         "x": "https://x.com/Fullgen",
@@ -233,6 +247,7 @@
       "firstElected": "1993",
       "position": "代表",
       "birthDate": "1957-05-20",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/NODAYOSHI55"
       }
@@ -247,8 +262,8 @@
       "constituency": "広島1区",
       "electionCount": 10,
       "firstElected": "1993",
-      "position": "内閣総理大臣",
       "birthDate": "1957-07-29",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/kishida230",
         "youtube": "https://www.youtube.com/@kishidafumio230",
@@ -267,6 +282,7 @@
       "firstElected": "1979",
       "position": "最高顧問",
       "birthDate": "1940-09-20",
+      "gender": "男性",
       "sns": {}
     },
     {
@@ -281,6 +297,7 @@
       "firstElected": "2005",
       "position": "幹事長",
       "birthDate": "1971-04-30",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/junyaog",
         "youtube": "https://www.youtube.com/@ogawa_junya",
@@ -298,6 +315,7 @@
       "electionCount": 5,
       "firstElected": "2009",
       "birthDate": "1981-04-14",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/shinjirokoiz",
         "instagram": "https://www.instagram.com/shinjiro.koizumi"
@@ -315,6 +333,7 @@
       "firstElected": "1993",
       "position": "代表",
       "birthDate": "1952-02-05",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/saitotetsuo",
         "youtube": "https://www.youtube.com/@3110tetsuo",
@@ -333,6 +352,7 @@
       "firstElected": "2012",
       "position": "政調会長",
       "birthDate": "1965-10-24",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/okamoto3nari",
         "instagram": "https://www.instagram.com/mitsunari.okamoto"
@@ -350,6 +370,7 @@
       "firstElected": "2013",
       "position": "代表",
       "birthDate": "1974-11-24",
+      "gender": "男性",
       "sns": {
         "x": "https://x.com/yamamototaro0",
         "youtube": "https://www.youtube.com/@taroyamamoto_official",
@@ -368,10 +389,264 @@
       "firstElected": "1998",
       "position": "党首",
       "birthDate": "1955-12-24",
+      "gender": "女性",
       "sns": {
         "x": "https://x.com/mizuhofukushima",
         "youtube": "https://www.youtube.com/@FukushimaMizuho",
         "instagram": "https://www.instagram.com/mizuho_fukushima9"
+      }
+    },
+    {
+      "id": "pol23",
+      "name": "青柳 仁士",
+      "kana": "あおやぎ ひとし",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "衆議院",
+      "constituency": "大阪14区",
+      "electionCount": 2,
+      "firstElected": "2021",
+      "position": "政務調査会長",
+      "birthDate": "1978-11-07",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/aoyagi_h",
+        "instagram": "https://www.instagram.com/aoyagi117"
+      }
+    },
+    {
+      "id": "pol24",
+      "name": "臼木 秀剛",
+      "kana": "うすぎ ひでたけ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "北海道(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1981-03-28",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hide_usuki",
+        "youtube": "https://www.youtube.com/@%E3%81%86%E3%81%99%E3%81%8D%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/usuki_hidetake"
+      }
+    },
+    {
+      "id": "pol25",
+      "name": "小竹 凱",
+      "kana": "おだけ かい",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "北陸信越(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1998-05-17",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/odake_kokumin",
+        "youtube": "https://www.youtube.com/@odake_kokumin",
+        "instagram": "https://www.instagram.com/odake_kokumin"
+      }
+    },
+    {
+      "id": "pol26",
+      "name": "日野 紗里亜",
+      "kana": "ひの さりあ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "愛知7区",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1987-11-26",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/saria_hino",
+        "youtube": "https://www.youtube.com/@sariahino",
+        "instagram": "https://www.instagram.com/saria.hino"
+      }
+    },
+    {
+      "id": "pol27",
+      "name": "福田 徹",
+      "kana": "ふくだ とおる",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "愛知16区",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1982-06-02",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/Toru_Fukuta",
+        "youtube": "https://www.youtube.com/@%E7%A6%8F%E7%94%B0%E3%81%A8%E3%81%8A%E3%82%8B",
+        "instagram": "https://www.instagram.com/toru.fukuta"
+      }
+    },
+    {
+      "id": "pol28",
+      "name": "浜口 誠",
+      "kana": "はまぐち まこと",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "position": "政務調査会長兼役員室長",
+      "birthDate": "1965-05-18",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/HamaMako0518",
+        "youtube": "https://www.youtube.com/@%E3%81%AF%E3%81%BE%E3%81%90%E3%81%A1%E8%AA%A0%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB",
+        "instagram": "https://www.instagram.com/hamaguchi_makoto"
+      }
+    },
+    {
+      "id": "pol29",
+      "name": "舟山 康江",
+      "kana": "ふなやま やすえ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "山形",
+      "electionCount": 3,
+      "firstElected": "2024",
+      "position": "参議院議員会長兼両院議員総会長",
+      "birthDate": "1966-05-26",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/yasue_funayama0",
+        "youtube": "https://www.youtube.com/@yasuechan",
+        "instagram": "https://www.instagram.com/funayama_yasue/"
+      }
+    },
+    {
+      "id": "pol30",
+      "name": "玄葉 光一郎",
+      "kana": "げんば こういちろう",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "衆議院",
+      "constituency": "福島2区",
+      "electionCount": 11,
+      "firstElected": "1993", 
+      "birthDate": "1964-05-20",
+      "gender": "男性",
+      "sns": {
+      }
+    },
+    {
+      "id": "pol31",
+      "name": "礒﨑 哲史",
+      "kana": "いそざき てつじ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2013",
+      "position": "副代表兼広報委員長代理",
+      "birthDate": "1969-04-07",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/IsozakiTetsuji",
+        "youtube": "https://www.youtube.com/@IsozakiTetsuji"
+      }
+    },
+    {
+      "id": "pol32",
+      "name": "田村 麻美",
+      "kana": "たむら まみ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2016",
+      "position": "副代表兼広報委員長代理",
+      "birthDate": "1976-04-23",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/mamitamuratw",
+        "youtube": "https://www.youtube.com/@%E7%94%B0%E6%9D%91%E3%81%BE%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+        "instagram": "https://www.instagram.com/mamitamuraig"
+      }
+    },
+    {
+      "id": "pol33",
+      "name": "高井 崇志",
+      "kana": "たかい たかし",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "衆議院",
+      "constituency": "東京12区",
+      "electionCount": 4,
+      "firstElected": "2009",
+      "position": "幹事長",
+      "birthDate": "1969-09-26",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/t_takai",
+        "youtube": "https://www.youtube.com/@%E9%AB%98%E4%BA%95%E3%81%9F%E3%81%8B%E3%81%97-q4i",
+        "instagram": "https://www.instagram.com/takashi_takai"
+      }
+    },
+    {
+      "id": "pol34",
+      "name": "川合 孝典",
+      "kana": "かわい たかのり",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 3,
+      "firstElected": "2007",
+      "position": "幹事長代行",
+      "birthDate": "1964-01-29",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/T_KAWAI_SANGIIN",
+        "youtube": "https://www.youtube.com/@%E3%81%8B%E3%82%8F%E3%81%84%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A%E4%BA%8B%E5%8B%99%E6%89%80"
+      }
+    },
+    {
+      "id": "pol35",
+      "name": "松原 仁",
+      "kana": "まつばら じん",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "衆議院",
+      "constituency": "東京26区",
+      "electionCount": 9,
+      "firstElected": "2000",
+      "birthDate": "1956-07-31",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/matsubarajin731",
+        "youtube": "https://www.youtube.com/@%E6%9D%BE%E5%8E%9F%E4%BB%81%E3%81%AE%E3%82%B8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E6%9D%B1%E4%BA%AC",
+        "instagram": "https://www.instagram.com/matsubara.jin"
+      }
+    },
+    {
+      "id": "pol36",
+      "name": "小野田 紀美",
+      "kana": "おのだ きみ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "東京23区",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1982-12-07",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/onoda_kimi",
+        "youtube": "https://www.youtube.com/@%E5%B0%8F%E9%87%8E%E7%94%B0%E7%B4%80%E7%BE%8E%E5%85%AC%E5%BC%8FYouTube",
+        "instagram": "https://www.instagram.com/onodakimijimusho"
       }
     }
   ]

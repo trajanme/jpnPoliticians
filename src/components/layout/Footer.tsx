@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">国会議員検索サービス</h3>
+            <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">国会議員検索</h3>
             <p className="text-sm text-gray-600 dark:text-gray-300">
               衆議院・参議院の現職議員データを閲覧できる非公式サイトです。
             </p>
@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="text-sm text-gray-600 dark:text-gray-300">
               ご意見・ご要望は
               <a
-                href="https://github.com/yourusername/3in1000v2025/issues"
+                href="https://github.com/trajanme/jpnPoliticians/issues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600 dark:border-gray-800 dark:text-gray-300">
-          <p>© {new Date().getFullYear()} 国会議員検索サービス. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} 国会議員検索. All rights reserved.</p>
         </div>
       </div>
     </footer>

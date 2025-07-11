@@ -34,25 +34,46 @@ export default async function PartyDetailPage({ params }: { params: Promise<{ id
   const lowerCount = politicians.filter((p) => p.house === '衆議院').length;
   const upperCount = politicians.filter((p) => p.house === '参議院').length;
 
-  // 年代分布
+  // 年代分布と平均年齢計算
   const ageBuckets = [
     { key: '20s', label: '20代', color: '#4ade80', count: 0 },
     { key: '30s', label: '30代', color: '#22d3ee', count: 0 },
-    { key: '40s', label: '40代', color: '#60a5fa', count: 0 },
-    { key: '50s', label: '50代', color: '#818cf8', count: 0 },
-    { key: '60s', label: '60代', color: '#a78bfa', count: 0 },
-    { key: '70s', label: '70代以上', color: '#c084fc', count: 0 },
+    { key: '40s', label: '40代', color: '#3b82f6', count: 0 },
+    { key: '50s', label: '50代', color: '#8b5cf6', count: 0 },
+    { key: '60s', label: '60代', color: '#ec4899', count: 0 },
+    { key: '70s', label: '70代', color: '#ef4444', count: 0 },
+    { key: '80s', label: '80代以上', color: '#dc2626', count: 0 },
   ];
+
+  let totalAge = 0;
+  let ageCount = 0;
 
   politicians.forEach((p) => {
     if (!p.birthDate) return;
     const age = calculateAge(p.birthDate);
+    totalAge += age;
+    ageCount++;
+    
     if (age < 30) ageBuckets[0].count++;
     else if (age < 40) ageBuckets[1].count++;
     else if (age < 50) ageBuckets[2].count++;
     else if (age < 60) ageBuckets[3].count++;
     else if (age < 70) ageBuckets[4].count++;
-    else ageBuckets[5].count++;
+    else if (age < 80) ageBuckets[5].count++;
+    else ageBuckets[6].count++;
+  });
+
+  const averageAge = ageCount > 0 ? (totalAge / ageCount) : 0;
+
+  // 男女比計算
+  const genderStats = [
+    { key: 'male', label: '男性', color: '#3b82f6', count: 0 },
+    { key: 'female', label: '女性', color: '#ec4899', count: 0 },
+  ];
+
+  politicians.forEach((p) => {
+    if (p.gender === '男性') genderStats[0].count++;
+    else if (p.gender === '女性') genderStats[1].count++;
   });
 
   // SNS 利用状況集計
@@ -173,7 +194,12 @@ export default async function PartyDetailPage({ params }: { params: Promise<{ id
       {/* 年代分布 */}
       {politicians.length > 0 && (
         <div className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">年代分布</h2>
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">年代分布</h2>
+            <div className="text-sm font-medium text-gray-600 dark:text-gray-400">
+              平均年齢: <span className="text-blue-600 dark:text-blue-400">{averageAge.toFixed(1)}歳</span>
+            </div>
+          </div>
           <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
             {ageBuckets.map(({ key, color, count }) => {
               const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
@@ -186,8 +212,39 @@ export default async function PartyDetailPage({ params }: { params: Promise<{ id
               );
             })}
           </div>
-          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-6">
+          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
             {ageBuckets.map(({ key, label, color, count }) => {
+              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+              return (
+                <div key={key} className="flex items-center space-x-1 whitespace-nowrap">
+                  <span className="inline-block h-3 w-3 rounded flex-shrink-0" style={{ backgroundColor: color }} />
+                  <span className="truncate">{label}</span>
+                  <span className="ml-auto flex-shrink-0">{count} ({percent.toFixed(1)}%)</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* 男女比 */}
+      {politicians.length > 0 && (
+        <div className="mb-12">
+          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">男女比</h2>
+          <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
+            {genderStats.map(({ key, color, count }) => {
+              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+              return (
+                <div
+                  key={key}
+                  style={{ width: `${percent}%`, backgroundColor: color }}
+                  className="h-full"
+                />
+              );
+            })}
+          </div>
+          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200">
+            {genderStats.map(({ key, label, color, count }) => {
               const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
               return (
                 <div key={key} className="flex items-center space-x-1">

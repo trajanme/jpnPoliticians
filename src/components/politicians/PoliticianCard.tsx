@@ -20,9 +20,16 @@ const PoliticianCard = ({ politician }: Props) => {
     ? { borderTopColor: party.color, borderTopWidth: '4px' }
     : undefined;
 
+  // 男女別の背景色を設定
+  const genderBgColor = politician.gender === '女性' 
+    ? 'bg-pink-50 dark:bg-pink-900/10' 
+    : politician.gender === '男性'
+    ? 'bg-blue-50 dark:bg-blue-900/10'
+    : 'bg-white dark:bg-gray-900';
+
   return (
     <div
-      className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+      className={`overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-md dark:border-gray-800 ${genderBgColor}`}
       style={containerStyle}
     >
       <div className="p-6">

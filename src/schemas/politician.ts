@@ -19,6 +19,7 @@ export const PoliticianSchema = z.object({
   electionCount: z.number().int(),
   firstElected: z.string(), // 例: "2005"
   position: z.string().optional(), // 党内役職など
+  gender: z.enum(['男性', '女性']).optional(), // 性別
   sns: SocialLinksSchema.optional(),
 });
 
