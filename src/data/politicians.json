@@ -648,6 +648,24 @@
         "youtube": "https://www.youtube.com/@%E5%B0%8F%E9%87%8E%E7%94%B0%E7%B4%80%E7%BE%8E%E5%85%AC%E5%BC%8FYouTube",
         "instagram": "https://www.instagram.com/onodakimijimusho"
       }
+    },
+    {
+      "id": "pol37",
+      "name": "高市 早苗",
+      "kana": "たかいち さなえ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "奈良2区",
+      "electionCount": 10,
+      "firstElected": "1993",
+      "birthDate": "1961-03-07",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/takaichi_sanae",
+        "youtube": "https://www.youtube.com/@takaichisanaechannel",
+        "instagram": "https://www.instagram.com/takaichi_sanae"
+      }
     }
   ]
 } 

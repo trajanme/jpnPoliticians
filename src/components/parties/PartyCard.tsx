@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Party } from '@/types/data';
@@ -53,15 +55,16 @@ const PartyCard = ({ party }: PartyCardProps) => {
         })()}
         <div className="flex items-center justify-between">
           {party.website && (
-            <a
-              href={party.website}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(party.website, '_blank', 'noopener,noreferrer');
+              }}
               className="rounded-md bg-blue-600 px-4 py-1 text-sm font-medium text-white hover:bg-blue-700"
-              onClick={(e) => e.stopPropagation()}
             >
               公式サイト
-            </a>
+            </button>
           )}
           <span className="ml-auto text-sm font-medium text-gray-700 dark:text-gray-300">
             詳細を見る<span className="ml-1">&gt;</span>

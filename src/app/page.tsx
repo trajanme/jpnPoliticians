@@ -102,7 +102,8 @@ export default function Home() {
   ];
 
   const totalCount = politicians.length;
-  const majorityThreshold = Math.ceil(totalCount / 2);
+  const actualTotalCount = viewType === 'all' ? 713 : viewType === 'lower' ? 465 : 248;
+  const majorityThreshold = Math.ceil(actualTotalCount / 2);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -144,7 +145,7 @@ export default function Home() {
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">政党別人数</h2>
           <div className="text-sm text-gray-600 dark:text-gray-400">
-            総数: {totalCount}人 / 過半数: {majorityThreshold}人
+            総数: {actualTotalCount}人 / 過半数: {majorityThreshold}人
           </div>
         </div>
         
@@ -153,7 +154,7 @@ export default function Home() {
           <div 
             className="absolute top-0 h-full w-0.5 border-l-2 border-dashed border-red-600 dark:border-red-400 z-10"
             style={{ 
-              left: `${(majorityThreshold / totalCount) * 100}%`,
+              left: `${(majorityThreshold / actualTotalCount) * 100}%`,
               opacity: 0.3
             }}
             title={`過半数: ${majorityThreshold}人`}
