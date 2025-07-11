@@ -5,7 +5,7 @@ import PoliticiansBrowser from '@/components/politicians/PoliticiansBrowser';
 import { getPoliticians } from '@/utils/politicians';
 
 type ViewType = 'all' | 'lower' | 'upper';
-type SortType = 'name' | 'age';
+type SortType = 'name' | 'age' | 'firstElected';
 type SortOrder = 'asc' | 'desc';
 
 export default function PoliticiansPage() {

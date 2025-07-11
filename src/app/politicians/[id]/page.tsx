@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { use } from 'react';
 import { getPolitician } from '@/utils/politicians';
 import PoliticianProfile from '@/components/politicians/PoliticianProfile';
