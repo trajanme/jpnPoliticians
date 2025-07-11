@@ -141,7 +141,9 @@
       "birthDate": "1979-01-06",
       "gender": "男性",
       "sns": {
-        "x": "https://x.com/kamiyamasayuki_"
+        "x": "https://x.com/kamiyamasayuki_",
+        "youtube": "https://www.youtube.com/@%E7%A5%9E%E8%B0%B7%E3%81%BE%E3%81%95%E3%82%86%E3%81%8D-x1o",
+        "instagram": "https://www.instagram.com/masayuki_kamiya23"
       }
     },
     {
@@ -170,6 +172,7 @@
       "constituency": "神奈川2区",
       "electionCount": 8,
       "firstElected": "1996",
+      "position": "副総裁",
       "birthDate": "1948-12-06",
       "gender": "男性",
       "sns": {
@@ -666,6 +669,112 @@
         "youtube": "https://www.youtube.com/@takaichisanaechannel",
         "instagram": "https://www.instagram.com/takaichi_sanae"
       }
+    },
+    {
+      "id": "pol38",
+      "name": "志位 和夫",
+      "kana": "しい かずお",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "衆議院",
+      "constituency": "南関東(比例)",
+      "electionCount": 11,
+      "firstElected": "1993",
+      "birthDate": "1954-07-29",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/shiikazuo"
+      }
+    },
+    {
+      "id": "pol39",
+      "name": "大空 幸星",
+      "kana": "おおぞら こうき",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "東京(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1998-11-26",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/ozorakoki",
+        "youtube": "https://www.youtube.com/@ozorakoki",
+        "instagram": "https://www.instagram.com/ozora_koki/"
+      }
+    },
+    {
+      "id": "pol40",
+      "name": "平井 卓也",
+      "kana": "ひらい たくや",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "香川1区",
+      "electionCount": 9,
+      "firstElected": "2000",
+      "birthDate": "1958-01-25",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hiratakuchan",
+        "youtube": "https://www.youtube.com/@hiratakuyt",
+        "instagram": "https://www.instagram.com/hiratakuchan0125"
+      }
+    },
+    {
+      "id": "pol41",
+      "name": "河野 太郎",
+      "kana": "こうの たろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "神奈川15区",
+      "electionCount": 10,
+      "firstElected": "1996",
+      "birthDate": "1963-01-10",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/konotarogomame",
+        "youtube": "https://www.youtube.com/@KonoTaroGomame",
+        "instagram": "https://www.instagram.com/konotarogomame"
+      }
+    },
+    {
+      "id": "pol42",
+      "name": "猪瀬 直樹",
+      "kana": "いのせ なおき",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2022",
+      "birthDate": "1946-11-20",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/inosenaoki",
+        "youtube": "https://www.youtube.com/@%E7%8C%AA%E7%80%AC%E7%9B%B4%E6%A8%B9-v2g",
+        "instagram": "https://www.instagram.com/inose.naoki"
+      }
+    },
+    {
+      "id": "pol43",
+      "name": "青山 繁晴",
+      "kana": "あおやま しげはる",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1952-07-25",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/aoyamashigeharu",
+        "youtube": "https://www.youtube.com/@shigeharuaoyama",
+        "instagram": "https://www.instagram.com/aoyama_shigeharu/"
+      }
     }
   ]
-} 
+}
