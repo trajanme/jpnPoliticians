@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import type { Politician } from '@/types/politician';
 import PoliticianCard from './PoliticianCard';
 import { getParties } from '@/utils/data';
-import { compareSeniority, calculateAge } from '@/utils/politicians';
+import { calculateAge } from '@/utils/politicians';
 import { FaSortAmountUp, FaSortAmountDown } from 'react-icons/fa';
 
 type SortType = 'name' | 'age';
