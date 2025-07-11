@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Party } from '@/types/data';
 import { getPoliticiansByParty } from '@/utils/politicians';
+import { HiSparkles, HiStar } from 'react-icons/hi';
 
 interface PartyCardProps {
   party: Party;
@@ -13,9 +14,20 @@ const PartyCard = ({ party }: PartyCardProps) => {
   return (
     <Link
       href={`/parties/${party.id}`}
-      className="block overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+      className="block overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900 relative"
       style={{ borderTopColor: party.color, borderTopWidth: '4px' }}
     >
+      {/* 与党バッジ */}
+      {party.isRuling && (
+        <div className="absolute top-3 right-3 z-10">
+          <div className="flex items-center gap-1 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 px-3 py-1.5 text-xs font-bold text-white shadow-lg">
+            <HiSparkles className="h-3 w-3 animate-pulse" />
+            <span>与党</span>
+            <HiStar className="h-3 w-3" />
+          </div>
+        </div>
+      )}
+      
       <div className="p-6">
         <div className="mb-4 flex items-start justify-between gap-2">
           <div className="flex-1">
