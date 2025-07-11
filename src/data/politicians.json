@@ -31,7 +31,8 @@
       "birthDate": "1967-11-09",
       "gender": "女性",
       "sns": {
-        "x": "https://x.com/89314honda"
+        "x": "https://x.com/89314honda",
+        "instagram": "https://www.instagram.com/hondaakikostaff?igsh=MTkyZDN6dGZ1Znds"
       }
     },
     {
@@ -775,6 +776,129 @@
         "youtube": "https://www.youtube.com/@shigeharuaoyama",
         "instagram": "https://www.instagram.com/aoyama_shigeharu/"
       }
-    }
+    },
+    {
+      "id": "pol44",
+      "name": "今井 絵理子",
+      "kana": "いまい えりこ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1983-09-22",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/Imai_Eriko0922",
+        "youtube": "https://www.youtube.com/@%E4%BB%8A%E4%BA%95%E7%B5%B5%E7%90%86%E5%AD%90%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/imai_eriko0922"
+      }
+    },
+    {
+      "id": "pol45",
+      "name": "宮沢 洋一",
+      "kana": "みやざわ よういち",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "広島",
+      "electionCount": 6,
+      "firstElected": "2000",
+      "birthDate": "1950-04-21",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/miyazawa_yoichi",
+        "instagram": "https://www.instagram.com/miyazawa_yoichi"
+      }
+    },
+    {
+      "id": "pol46",
+      "name": "橋本 聖子",
+      "kana": "はしもと せいこ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 5,
+      "firstElected": "1995",
+      "birthDate": "1964-10-05",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/hashimoto_seiko",
+        "instagram": "https://www.instagram.com/seiko_hashimoto1005"
+      }
+    },
+    {
+      "id": "pol47",
+      "name": "中田 宏",
+      "kana": "なかだ ひろし",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 4,
+      "firstElected": "2002",
+      "birthDate": "1964-09-20",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/NAKADAHiroshi",
+        "youtube": "https://www.youtube.com/@NAKADAHiroshiOffice",
+        "instagram": "https://www.instagram.com/hiroshi.nakada2023"
+      }
+    },
+    {
+      "id": "pol48",
+      "name": "西田 実仁",
+      "kana": "にしだ まこと",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "参議院",
+      "constituency": "埼玉",
+      "electionCount": 4,
+      "firstElected": "2004",
+      "position": "幹事長",
+      "birthDate": "1962-08-27",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/m_nishida"
+      }
+    },
+         {
+       "id": "pol49",
+       "name": "佐々木 さやか",
+       "kana": "ささき さやか",
+       "partyId": "KMT",
+       "caucus": "公明党",
+       "house": "参議院",
+       "constituency": "神奈川",
+       "electionCount": 2,
+       "firstElected": "2013",
+       "birthDate": "1981-01-18",
+       "gender": "女性",
+       "sns": {
+         "x": "https://x.com/sayaka_sasaki",
+         "youtube": "https://www.youtube.com/@SasakiSayakaCh",
+         "instagram": "https://www.instagram.com/sayaka.s0514"
+       }
+     },
+     {
+      "id": "pol50",
+      "name": "伊藤 孝江",
+      "kana": "いとう たかえ",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "参議院",
+      "constituency": "兵庫",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1968-01-13",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/ito_takae",
+        "youtube": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E9%81%B8%E6%8C%99%E5%85%B5%E5%BA%AB%E7%9C%8C%E9%81%B8%E6%8C%99",
+        "instagram": "https://www.instagram.com/ito_takae"
+      }
+     }
   ]
 }

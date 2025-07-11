@@ -1,35 +1,45 @@
+'use client';
+
+import { useState } from 'react';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getParty } from '@/utils/data';
-import { getPoliticiansByParty, compareSeniority, calculateAge } from '@/utils/politicians';
+import { getPoliticiansByParty, calculateAge } from '@/utils/politicians';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
+import { FaSortAmountUp, FaSortAmountDown } from 'react-icons/fa';
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const party = getParty(id);
-  
-  if (!party) {
-    return {
-      title: '政党が見つかりません | 国会議員検索サービス',
-    };
-  }
-
-  return {
-    title: `${party.name} | 国会議員検索サービス`,
-    description: party.description,
-  };
-}
-
-export default async function PartyDetailPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export default function PartyDetailPage({ params }: { params: { id: string } }) {
+  const { id } = params;
   const party = getParty(id);
 
   if (!party) {
     notFound();
   }
 
-  const politicians = getPoliticiansByParty(party.id).sort(compareSeniority);
+  const [sortType, setSortType] = useState<'name' | 'age' | 'firstElected'>('firstElected');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+
+  const allPoliticians = getPoliticiansByParty(party.id);
+  
+  // ソート機能
+  const politicians = [...allPoliticians].sort((a, b) => {
+    let comparison = 0;
+    
+    if (sortType === 'name') {
+      comparison = a.kana.localeCompare(b.kana, 'ja');
+    } else if (sortType === 'age') {
+      const ageA = a.birthDate ? calculateAge(a.birthDate) : 0;
+      const ageB = b.birthDate ? calculateAge(b.birthDate) : 0;
+      comparison = ageA - ageB;
+    } else if (sortType === 'firstElected') {
+      const yearA = parseInt(a.firstElected, 10);
+      const yearB = parseInt(b.firstElected, 10);
+      comparison = yearA - yearB;
+    }
+    
+    return sortOrder === 'asc' ? comparison : -comparison;
+  });
   const lowerCount = politicians.filter((p) => p.house === '衆議院').length;
   const upperCount = politicians.filter((p) => p.house === '参議院').length;
 
@@ -288,9 +298,69 @@ export default async function PartyDetailPage({ params }: { params: Promise<{ id
       {/* 所属議員 */}
       {politicians.length > 0 && (
         <div id="politicians">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">
-            所属議員
-          </h2>
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+              所属議員
+            </h2>
+            
+            {/* ソート機能 */}
+            <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">ソート:</span>
+                <label className="flex items-center space-x-1">
+                  <input
+                    type="radio"
+                    name="sortType"
+                    value="firstElected"
+                    checked={sortType === 'firstElected'}
+                    onChange={(e) => setSortType(e.target.value as 'name' | 'age' | 'firstElected')}
+                    className="text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-xs text-gray-700 dark:text-gray-300">初当選順</span>
+                </label>
+                <label className="flex items-center space-x-1">
+                  <input
+                    type="radio"
+                    name="sortType"
+                    value="name"
+                    checked={sortType === 'name'}
+                    onChange={(e) => setSortType(e.target.value as 'name' | 'age' | 'firstElected')}
+                    className="text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-xs text-gray-700 dark:text-gray-300">名前順</span>
+                </label>
+                <label className="flex items-center space-x-1">
+                  <input
+                    type="radio"
+                    name="sortType"
+                    value="age"
+                    checked={sortType === 'age'}
+                    onChange={(e) => setSortType(e.target.value as 'name' | 'age' | 'firstElected')}
+                    className="text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-xs text-gray-700 dark:text-gray-300">年齢順</span>
+                </label>
+              </div>
+              
+              <button
+                onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
+                className="flex items-center space-x-1 rounded border border-gray-300 bg-white px-2 py-1 text-xs transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                {sortOrder === 'asc' ? (
+                  <>
+                    <FaSortAmountUp className="h-3 w-3" />
+                    <span>昇順</span>
+                  </>
+                ) : (
+                  <>
+                    <FaSortAmountDown className="h-3 w-3" />
+                    <span>降順</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+          
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {politicians.map((pol) => (
               <PoliticianCard key={pol.id} politician={pol} />

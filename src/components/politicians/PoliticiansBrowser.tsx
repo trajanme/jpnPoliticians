@@ -7,7 +7,7 @@ import { getParties } from '@/utils/data';
 import { calculateAge } from '@/utils/politicians';
 import { FaSortAmountUp, FaSortAmountDown } from 'react-icons/fa';
 
-type SortType = 'name' | 'age';
+type SortType = 'name' | 'age' | 'firstElected';
 type SortOrder = 'asc' | 'desc';
 
 interface Props {
@@ -45,6 +45,10 @@ const PoliticiansBrowser = ({
         const ageA = a.birthDate ? calculateAge(a.birthDate) : 0;
         const ageB = b.birthDate ? calculateAge(b.birthDate) : 0;
         comparison = ageA - ageB;
+      } else if (sortType === 'firstElected') {
+        const yearA = parseInt(a.firstElected, 10);
+        const yearB = parseInt(b.firstElected, 10);
+        comparison = yearA - yearB;
       }
       
       return sortOrder === 'asc' ? comparison : -comparison;
@@ -98,6 +102,17 @@ const PoliticiansBrowser = ({
                 className="text-blue-600 focus:ring-blue-500"
               />
               <span className="text-sm text-gray-700 dark:text-gray-300">年齢順</span>
+            </label>
+            <label className="flex items-center space-x-2">
+              <input
+                type="radio"
+                name="sortType"
+                value="firstElected"
+                checked={sortType === 'firstElected'}
+                onChange={(e) => onSortTypeChange?.(e.target.value as SortType)}
+                className="text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-sm text-gray-700 dark:text-gray-300">初当選順</span>
             </label>
           </div>
 
