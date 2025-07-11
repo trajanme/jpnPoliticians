@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { use } from 'react';
 import { getPolitician } from '@/utils/politicians';
 import PoliticianProfile from '@/components/politicians/PoliticianProfile';
 import { notFound } from 'next/navigation';
@@ -13,8 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
-export default function PoliticianPage({ params }: { params: { id: string } }) {
-  const politician = getPolitician(params.id);
+export default function PoliticianPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const politician = getPolitician(id);
   if (!politician) {
     notFound();
   }

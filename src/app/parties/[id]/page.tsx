@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { use } from 'react';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,8 +10,8 @@ import { getPoliticiansByParty, calculateAge } from '@/utils/politicians';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
 import { FaSortAmountUp, FaSortAmountDown } from 'react-icons/fa';
 
-export default function PartyDetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default function PartyDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const party = getParty(id);
 
   if (!party) {
