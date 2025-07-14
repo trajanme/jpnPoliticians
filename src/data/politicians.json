@@ -899,6 +899,284 @@
         "youtube": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E9%81%B8%E6%8C%99%E5%85%B5%E5%BA%AB%E7%9C%8C%E9%81%B8%E6%8C%99",
         "instagram": "https://www.instagram.com/ito_takae"
       }
-     }
+     },
+     {
+      "id": "pol51",
+      "name": "赤澤 亮正",
+      "kana": "あかざわ りょうせい",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "鳥取2区",
+      "electionCount": 7,
+      "firstElected": "2005",
+      "birthDate": "1960-12-18",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/ryosei_akazawa"
+      }
+     },
+     {
+      "id": "pol52",
+      "name": "稲田 朋美",
+      "kana": "いなだ ともみ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "福井1区",
+      "electionCount": 7,
+      "firstElected": "2005",
+      "birthDate": "1959-02-20",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/dento_to_souzo",
+        "instagram": "https://www.instagram.com/tomomiinada"
+      }
+     },
+     {
+      "id": "pol53",
+      "name": "加田 裕之",
+      "kana": "かだ ひろゆき",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "兵庫",
+      "electionCount": 1,
+      "firstElected": "2019",
+      "birthDate": "1970-06-08",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/kadahiroyuki",
+        "youtube": "https://www.youtube.com/@kadahiroyuki_ch",
+        "instagram": "https://www.instagram.com/hiroyukikada"
+      }
+     },
+     {
+      "id": "pol54",
+      "name": "片山 さつき",
+      "kana": "かたやま さつき",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 4,
+      "firstElected": "2001",
+      "birthDate": "1959-05-27",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/satsukikatayama",
+        "youtube": "https://www.youtube.com/@%E7%89%87%E5%B1%B1%E3%81%95%E3%81%A4%E3%81%8D"
+      }
+     },
+     {
+      "id": "pol55",
+      "name": "杉尾 秀哉",
+      "kana": "すぎお ひでや",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "参議院",
+      "constituency": "長野",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1957-09-30",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/TeamSugioHideya",
+        "youtube": "https://www.youtube.com/@%E6%9D%89%E5%B0%BE%E3%81%B2%E3%81%A7%E3%82%84%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"      }
+     },
+     {
+      "id": "pol56",
+      "name": "石垣 のりこ",
+      "kana": "いしがき のりこ",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "参議院",
+      "constituency": "宮城",
+      "electionCount": 1,
+      "firstElected": "2019",
+      "birthDate": "1974-08-01",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/norinotes",
+        "youtube": "https://www.youtube.com/@%E7%9F%B3%E5%9E%A3%E3%81%AE%E3%82%8A%E3%81%93-t6r",
+        "instagram": "https://www.instagram.com/noriko.ishigaki.39"
+      }
+    },
+    {
+      "id": "pol57",
+      "name": "平 将明",
+      "kana": "たいら まさあき",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "東京4区",
+      "electionCount": 7,
+      "firstElected": "2005",
+      "birthDate": "1967-02-21",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/TAIRAMASAAKI",
+        "youtube": "https://www.youtube.com/@tairamasaaki",
+        "instagram": "https://www.instagram.com/masaaki5392"
+      }
+    },
+    {
+      "id": "pol58",
+      "name": "英利 アルフィヤ",
+      "kana": "えり あるふぃや",
+      "partyId": "CDP",
+      "caucus": "立憲民主党",
+      "house": "衆議院",
+      "constituency": "南関東(比例)",
+      "electionCount": 2,
+      "firstElected": "2023",
+      "birthDate": "1988-10-16",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/eri_arfiya",
+        "youtube": "https://www.youtube.com/@eri_arfiya",
+        "instagram": "https://www.instagram.com/eri_arfiya"
+      }
+    },
+    {
+      "id": "pol59",
+      "name": "永江 孝子",
+      "kana": "ながえ たかこ",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "参議院",
+      "constituency": "愛媛1区",
+      "electionCount": 1,
+      "firstElected": "2019",
+      "birthDate": "1960-06-15",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/takakonagae",
+        "youtube": "https://www.youtube.com/@nagae-takako",
+        "instagram": "https://www.instagram.com/ehime.nagaetakako"
+      }
+    },
+    {
+      "id": "pol60",
+      "name": "加藤 鮎子",
+      "kana": "かとう あゆこ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "山形3区",
+      "electionCount": 4,
+      "firstElected": "2014",
+      "birthDate": "1979-04-19",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/katoayuko_and_s",
+        "youtube": "https://www.youtube.com/@%E3%81%8B%E3%81%A8%E3%81%86%E9%AE%8E%E5%AD%90",
+        "instagram": "https://www.instagram.com/ayuko_kato"
+      }
+    },
+    {
+      "id": "pol61",
+      "name": "岸 信千世",
+      "kana": "きし のぶちよ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "山口2区",
+      "electionCount": 2,
+      "firstElected": "2023",
+      "birthDate": "1991-05-16",
+      "gender": "男性",
+      "sns": {
+        "instagram": "https://www.instagram.com/nobuchiyo_kishi"
+      }
+    },
+    {
+      "id": "pol62",
+      "name": "小林 鷹之",
+      "kana": "こばやし たかゆき",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "千葉2区",
+      "electionCount": 5,
+      "firstElected": "2012",
+      "birthDate": "1974-11-29",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/kobahawk",
+        "youtube": "https://www.youtube.com/@kobahawkchannel"
+      }
+    },
+    {
+      "id": "pol63",
+      "name": "高木 かおり",
+      "kana": "たかぎ かおり",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1972-10-10",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/takagi_kaori_",
+        "youtube": "https://www.youtube.com/@takagikaori1010",
+        "instagram": "https://www.instagram.com/takagi_kaori_"
+      }
+    },
+    {
+      "id": "pol64",
+      "name": "松野 明美",
+      "kana": "まつの あけみ",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2022",
+      "birthDate": "1968-04-27",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/akemi1212333",
+        "instagram": "https://www.instagram.com/akemi1212333"
+      }
+    },
+    {
+      "id": "pol65",
+      "name": "斎藤 アレックス",
+      "kana": "さいとう あれっくす",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "衆議院",
+      "constituency": "滋賀1区",
+      "electionCount": 2,
+      "firstElected": "2021",
+      "birthDate": "1985-06-30",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/AlexSaito2019",
+        "youtube": "https://www.youtube.com/@%E6%96%8E%E8%97%A4%E3%82%A2%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9YouTube%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/alexsaito19"
+      }
+    },
+    {
+      "id": "pol66",
+      "name": "藤巻 健史",
+      "kana": "ふじまき たけし",
+      "partyId": "JIP",
+      "caucus": "日本維新の会",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2013",
+      "birthDate": "1950-06-03",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/fujimaki_takesi",
+        "youtube": "https://www.youtube.com/@%E8%97%A4%E5%B7%BB%E5%81%A5%E5%8F%B2-c9i",
+        "instagram": "https://www.instagram.com/alexsaito19"
+      }
+    }  
   ]
 }
