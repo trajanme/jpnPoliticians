@@ -681,6 +681,7 @@
       "constituency": "南関東(比例)",
       "electionCount": 11,
       "firstElected": "1993",
+      "position": "議長",
       "birthDate": "1954-07-29",
       "gender": "男性",
       "sns": {
@@ -1241,6 +1242,188 @@
       "birthDate": "1968-04-11",
       "gender": "男性",
       "sns": {
+      }
+    },
+    {
+      "id": "pol71",
+      "name": "大椿 裕子",
+      "kana": "おおつばき ゆうこ",
+      "partyId": "SDP",
+      "caucus": "社会民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2023",
+      "position": "副党首",
+      "birthDate": "1973-08-14",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/ohtsubakiyuko",
+        "youtube": "https://www.youtube.com/@ohtsubakijimsho",
+        "instagram": "https://www.instagram.com/ohtsubakiyuko"
+      }
+    },
+    {
+      "id": "pol72",
+      "name": "新垣 クニオ",
+      "kana": "あらかき くにお",
+      "partyId": "SDP",
+      "caucus": "社会民主党",
+      "house": "衆議院",
+      "constituency": "沖縄2区",
+      "electionCount": 2,
+      "firstElected": "2021",
+      "position": "副党首",
+      "birthDate": "1956-06-19",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/arakaki_kunio",
+        "youtube": "https://www.youtube.com/@arakaki_kunio"
+      }
+    },
+    {
+      "id": "pol73",
+      "name": "田村 智子",
+      "kana": "たむら ともこ",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "衆議院",
+      "constituency": "東京(比例)",
+      "electionCount": 3,
+      "firstElected": "2010",
+      "position": "委員長",
+      "birthDate": "1965-07-04",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/tamutomojcp",
+        "youtube": "https://www.youtube.com/@tamuratomoko",
+        "instagram": "https://www.instagram.com/tamutom.jcp"
+      }
+    },
+    {
+      "id": "pol74",
+      "name": "山添 拓",
+      "kana": "やまぞえ たく",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "参議院",
+      "constituency": "東京",
+      "electionCount": 2,
+      "firstElected": "2016",
+      "birthDate": "1984-11-20",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/pioneertaku84",
+        "youtube": "https://www.youtube.com/@%E5%B1%B1%E6%B7%BB%E6%8B%93%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/yamazoe_taku"
+      }
+    },
+    {
+      "id": "pol75",
+      "name": "小池 晃",
+      "kana": "こいけ あきら",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 4,
+      "firstElected": "2007",
+      "position": "書記局長",
+      "birthDate": "1960-06-09",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/koike_akira",
+        "youtube": "https://www.youtube.com/@YouTuberKoikeAkira",
+        "instagram": "https://www.instagram.com/akira2koike"
+      }
+    },
+    {
+      "id": "pol76",
+      "name": "吉良 佳子",
+      "kana": "きら よしこ",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "参議院",
+      "constituency": "東京",
+      "electionCount": 1,
+      "firstElected": "2013",
+      "birthDate": "1982-09-14",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/kirayoshiko",
+        "youtube": "https://www.youtube.com/@yossikira1982",
+        "instagram": "https://www.instagram.com/kirayoshiko_official"
+      }
+    },
+    {
+      "id": "pol77",
+      "name": "吉川 里奈",
+      "kana": "よしかわ りな",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "衆議院",
+      "constituency": "九州(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1987-05-25",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/rina_yoshikawa_",
+        "youtube": "https://www.youtube.com/@yoshikawarina",
+        "instagram": "https://www.instagram.com/yoshikawa_rina"
+      }
+    },
+    {
+      "id": "pol78",
+      "name": "北野 裕子",
+      "kana": "きたの ゆうこ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "衆議院",
+      "constituency": "近畿(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1985-09-19",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/yukokitano123",
+        "instagram": "https://www.instagram.com/yuko.kitano"
+      }
+    },
+    {
+      "id": "pol79",
+      "name": "鈴木 敦",
+      "kana": "すずき あつし",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "衆議院",
+      "constituency": "南関東(比例)",
+      "electionCount": 2,
+      "firstElected": "2021",
+      "birthDate": "1988-12-15",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/suzukiatsushi_",
+        "youtube": "https://www.youtube.com/@%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%88%B4%E6%9C%A8%E3%81%82%E3%81%A4%E3%81%97",
+        "instagram": "https://www.instagram.com/suzukiatsushi_"
+      }
+    },
+    {
+      "id": "pol80",
+      "name": "梅村 みずほ",
+      "kana": "うめむら みずほ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "大阪",
+      "electionCount": 1,
+      "firstElected": "2019",
+      "birthDate": "1978-09-10",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/mizuho_umemura",
+        "youtube": "https://www.youtube.com/@umemura-mizuho",
+        "instagram": "https://www.instagram.com/umemura_mizuho"
       }
     }
   ]
