@@ -1177,6 +1177,71 @@
         "youtube": "https://www.youtube.com/@%E8%97%A4%E5%B7%BB%E5%81%A5%E5%8F%B2-c9i",
         "instagram": "https://www.instagram.com/alexsaito19"
       }
-    }  
+    },
+    {
+      "id": "pol67",
+      "name": "阿部 俊子",
+      "kana": "あべ としこ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "九州(比例)",
+      "electionCount": 7,
+      "firstElected": "2005",
+      "birthDate": "1959-05-19",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/abetoshiko",
+        "youtube": "https://www.youtube.com/@%E3%81%82%E3%81%B9%E4%BF%8A%E5%AD%90%E4%BA%8B%E5%8B%99%E6%89%80",
+        "instagram": "https://www.instagram.com/abetoshikorn"
+      }
+    },
+    {
+      "id": "pol68",
+      "name": "逢沢 一郎",
+      "kana": "あいざわ いちろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "岡山1区",
+      "electionCount": 13,
+      "firstElected": "1986",
+      "birthDate": "1954-06-10",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/ichiroaisawa"
+      }
+    },
+    {
+      "id": "pol69",
+      "name": "赤間 二郎",
+      "kana": "あかま じろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "全国(比例)",
+      "electionCount": 6,
+      "firstElected": "2005",
+      "birthDate": "1968-03-27",
+      "gender": "男性",
+      "sns": {
+        "instagram": "https://www.instagram.com/jiroakama"
+      }
+    },
+    {
+      "id": "pol70",
+      "name": "石田 真敏",
+      "kana": "いしだ まさとし",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "衆議院",
+      "constituency": "近畿(比例)",
+      "electionCount": 9,
+      "firstElected": "2005",
+      "birthDate": "1968-04-11",
+      "gender": "男性",
+      "sns": {
+      }
+    }
   ]
 }
