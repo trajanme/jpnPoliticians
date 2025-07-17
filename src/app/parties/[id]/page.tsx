@@ -18,13 +18,18 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
     notFound();
   }
 
+  const [viewType, setViewType] = useState<'all' | 'lower' | 'upper'>('all');
   const [sortType, setSortType] = useState<'name' | 'age' | 'firstElected'>('firstElected');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
   const allPoliticians = getPoliticiansByParty(party.id);
-  
+  // ビュー切り替えフィルタ
+  const filteredPoliticians = viewType === 'all'
+    ? allPoliticians
+    : allPoliticians.filter(p => p.house === (viewType === 'lower' ? '衆議院' : '参議院'));
+
   // ソート機能
-  const politicians = [...allPoliticians].sort((a, b) => {
+  const politicians = [...filteredPoliticians].sort((a, b) => {
     let comparison = 0;
     
     if (sortType === 'name') {
@@ -41,8 +46,8 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
     
     return sortOrder === 'asc' ? comparison : -comparison;
   });
-  const lowerCount = politicians.filter((p) => p.house === '衆議院').length;
-  const upperCount = politicians.filter((p) => p.house === '参議院').length;
+  const lowerCount = allPoliticians.filter((p) => p.house === '衆議院').length;
+  const upperCount = allPoliticians.filter((p) => p.house === '参議院').length;
 
   // 年代分布と平均年齢計算
   const ageBuckets = [
@@ -297,13 +302,34 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
       )}
 
       {/* 所属議員 */}
-      {politicians.length > 0 && (
+      {allPoliticians.length > 0 && (
         <div id="politicians">
+          {/* ビュー切り替えタブ */}
+          <div className="mb-4">
+            <div className="flex space-x-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-800">
+              {[
+                { key: 'all', label: '全体' },
+                { key: 'lower', label: '衆議院' },
+                { key: 'upper', label: '参議院' }
+              ].map(({ key, label }) => (
+                <button
+                  key={key}
+                  onClick={() => setViewType(key as 'all' | 'lower' | 'upper')}
+                  className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+                    viewType === key
+                      ? 'bg-white text-gray-900 shadow-sm dark:bg-gray-700 dark:text-white'
+                      : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="mb-6 flex items-center justify-between">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
               所属議員
             </h2>
-            
             {/* ソート機能 */}
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
@@ -342,7 +368,6 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
                   <span className="text-xs text-gray-700 dark:text-gray-300">年齢順</span>
                 </label>
               </div>
-              
               <button
                 onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
                 className="flex items-center space-x-1 rounded border border-gray-300 bg-white px-2 py-1 text-xs transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
@@ -361,7 +386,6 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
               </button>
             </div>
           </div>
-          
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {politicians.map((pol) => (
               <PoliticianCard key={pol.id} politician={pol} />
