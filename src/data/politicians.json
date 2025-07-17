@@ -98,7 +98,7 @@
       "partyId": "PDY",
       "caucus": "参政党",
       "house": "参議院",
-      "constituency": "全国比例",
+      "constituency": "全国(比例)",
       "electionCount": 2,
       "firstElected": "2022",
       "position": "代表",
@@ -1424,6 +1424,236 @@
         "x": "https://x.com/mizuho_umemura",
         "youtube": "https://www.youtube.com/@umemura-mizuho",
         "instagram": "https://www.instagram.com/umemura_mizuho"
+      }
+    },
+    {
+      "id": "pol81",
+      "name": "伊藤 岳",
+      "kana": "いとう がく",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "参議院",
+      "constituency": "埼玉",
+      "electionCount": 1,
+      "firstElected": "2019",
+      "birthDate": "1960-03-06",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/gaku_ito",
+        "youtube": "https://www.youtube.com/@%E4%BC%8A%E8%97%A4%E5%B2%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/itogakusangiingiin"
+      }
+    },
+    {
+      "id": "pol82",
+      "name": "大島 九州男",
+      "kana": "おおしま くすお",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 3,
+      "firstElected": "2007",
+      "birthDate": "1961-06-11",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/oshima_kusuo",
+        "youtube": "https://www.youtube.com/@k939"
+      }
+    },
+    {
+      "id": "pol83",
+      "name": "八幡 愛",
+      "kana": "やはた あい",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "衆議院",
+      "constituency": "近畿(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1987-07-21",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/aiainstein",
+        "youtube": "https://www.youtube.com/@aiainetein",
+        "instagram": "https://www.instagram.com/ayata_yhat"
+      }
+    },
+    {
+      "id": "pol84",
+      "name": "大石 晃子",
+      "kana": "おおいし あきこ",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2020",
+      "position": "共同代表",
+      "birthDate": "1977-05-27",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/oishiakiko",
+        "youtube": "https://www.youtube.com/@oishiakiko",
+        "instagram": "https://www.instagram.com/oishiakiko.osaka"
+      }
+    },
+    {
+      "id": "pol85",
+      "name": "森 洋介",
+      "kana": "もり ひろすけ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "東京(比例)",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1994-07-15",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/mori_yosuke_",
+        "youtube": "https://www.youtube.com/@mori-yosuke",
+        "instagram": "https://www.instagram.com/mori_yosuke_"
+      }
+    },
+    {
+      "id": "pol86",
+      "name": "浜野 喜史",
+      "kana": "はまの よしふみ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2013",
+      "position": "選挙対策委員長",
+      "birthDate": "1960-12-21",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hamanoyoshifumi",
+        "youtube": "https://www.youtube.com/@%E6%B5%9C%E9%87%8E%E3%82%88%E3%81%97%E3%81%B5%E3%81%BF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/hamanoyoshifumi"
+      }
+    },
+    {
+      "id": "pol87",
+      "name": "竹詰 仁",
+      "kana": "たけづめ ひとし",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2022",
+      "birthDate": "1969-02-06",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/Takezume_H",
+        "youtube": "https://www.youtube.com/@%E7%AB%B9%E8%A9%B0%E3%81%B2%E3%81%A8%E3%81%97%E3%81%AE%E3%81%9F%E3%81%91%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+        "instagram": "https://www.instagram.com/takezume_hitoshi"
+      }
+    },
+    {
+      "id": "pol88",
+      "name": "向山 好一",
+      "kana": "むこやま こういち",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "近畿(比例)",
+      "electionCount": 2,
+      "firstElected": "2024",
+      "birthDate": "1987-05-25",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/mukoyama_kobe",
+        "youtube": "https://www.youtube.com/@mukoyama-dpfp",
+        "instagram": "https://www.instagram.com/mukoyama0718"
+      }
+    },
+    {
+      "id": "pol89",
+      "name": "丹野 みどり",
+      "kana": "たんの みどり",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "愛知11区",
+      "electionCount": 1,
+      "firstElected": "2024",
+      "birthDate": "1973-07-03",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/tannomidori",
+        "youtube": "https://www.youtube.com/@tannomidori",
+        "instagram": "https://www.instagram.com/midorimarron"
+      }
+    },
+    {
+      "id": "pol90",
+      "name": "佐藤 正久",
+      "kana": "さとう まさひさ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 3,
+      "firstElected": "2007",
+      "birthDate": "1960-10-23",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/SatoMasahisa",
+        "youtube": "https://www.youtube.com/@masahisa-hige"
+      }
+    },
+    {
+      "id": "pol91",
+      "name": "比嘉 奈津美",
+      "kana": "ひが なつみ",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 3,
+      "firstElected": "2012",
+      "birthDate": "1958-10-03",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/natsumikan1003"
+      }
+    },
+    {
+      "id": "pol92",
+      "name": "浅尾 慶一郎",
+      "kana": "あさお けいいちろう",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "神奈川",
+      "electionCount": 6,
+      "firstElected": "1998",
+      "birthDate": "1964-02-11",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/asao_keiichiro",
+        "youtube": "https://www.youtube.com/@asaokeiichiro-hige"
+      }
+    },
+    {
+      "id": "pol93",
+      "name": "石井 浩郎",
+      "kana": "いしい ひろお",
+      "partyId": "LDP",
+      "caucus": "自由民主党",
+      "house": "参議院",
+      "constituency": "秋田",
+      "electionCount": 3,
+      "firstElected": "2010",
+      "birthDate": "1964-06-21",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hirooishii6",
+        "instagram": "https://www.instagram.com/hirooishii6"
       }
     }
   ]
