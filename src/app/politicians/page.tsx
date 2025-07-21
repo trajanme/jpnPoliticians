@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import PoliticiansBrowser from '@/components/politicians/PoliticiansBrowser';
-import { getPoliticians } from '@/utils/politicians';
+import { getPoliticians, getElected2025Politicians } from '@/utils/politicians';
 
-type ViewType = 'all' | 'lower' | 'upper';
+type ViewType = 'all' | 'lower' | 'upper' | 'elected2025';
 type SortType = 'name' | 'age' | 'firstElected';
 type SortOrder = 'asc' | 'desc';
 
@@ -14,10 +14,13 @@ export default function PoliticiansPage() {
   const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
 
   const allPoliticians = getPoliticians();
+  const elected2025Politicians = getElected2025Politicians();
   
   // 表示する議員をフィルタリング
   const politicians = viewType === 'all' 
     ? allPoliticians 
+    : viewType === 'elected2025'
+    ? elected2025Politicians
     : allPoliticians.filter(p => p.house === (viewType === 'lower' ? '衆議院' : '参議院'));
 
   return (
@@ -38,7 +41,8 @@ export default function PoliticiansPage() {
           {[
             { key: 'all', label: '全体' },
             { key: 'lower', label: '衆議院' },
-            { key: 'upper', label: '参議院' }
+            { key: 'upper', label: '参議院' },
+            { key: 'elected2025', label: '2025年当選' }
           ].map(({ key, label }) => (
             <button
               key={key}

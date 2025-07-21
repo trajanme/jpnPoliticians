@@ -6,14 +6,26 @@ const politicians: Politician[] = (politiciansRaw as { politicians: unknown[] })
   PoliticianSchema.parse(p)
 );
 
-export const getPoliticians = (): Politician[] => politicians;
+// disabledフラグがtrueでない議員のみを取得するヘルパー関数
+const getActivePoliticians = (): Politician[] => 
+  politicians.filter((p) => !p.disabled);
 
-// 指定政党に所属する議員一覧を取得
+export const getPoliticians = (): Politician[] => getActivePoliticians();
+
+// 指定政党に所属する議員一覧を取得（disabledフラグを考慮）
 export const getPoliticiansByParty = (partyId: string): Politician[] =>
-  politicians.filter((p) => p.partyId === partyId);
+  getActivePoliticians().filter((p) => p.partyId === partyId);
 
 export const getPolitician = (id: string): Politician | undefined =>
-  politicians.find((p) => p.id === id);
+  getActivePoliticians().find((p) => p.id === id);
+
+// 2025年参議院選挙当選者のみを取得
+export const getElected2025Politicians = (): Politician[] =>
+  getActivePoliticians().filter((p) => p.elected2025 === true);
+
+// 2025年参議院選挙当選者で指定政党に所属する議員を取得
+export const getElected2025PoliticiansByParty = (partyId: string): Politician[] =>
+  getElected2025Politicians().filter((p) => p.partyId === partyId);
 
 export const calculateAge = (birthDate: string): number => {
   const dob = new Date(birthDate);

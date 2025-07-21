@@ -21,6 +21,8 @@ export const PoliticianSchema = z.object({
   position: z.string().optional(), // 党内役職など
   gender: z.enum(['男性', '女性']).optional(), // 性別
   sns: SocialLinksSchema.optional(),
+  disabled: z.boolean().optional(), // 落選・引退などで非表示にするフラグ
+  elected2025: z.boolean().optional(), // 2025年参議院選挙当選者フラグ
 });
 
 export type Politician = z.infer<typeof PoliticianSchema>; 

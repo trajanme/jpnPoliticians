@@ -91,6 +91,15 @@
       "isRuling": false
     },
     {
+      "id": "TM",
+      "name": "チームみらい",
+      "shortName": "みらい",
+      "color": "#8B5CF6",
+      "description": "新しい政治の形を目指す政党。市民参加型の政治を掲げる。",
+      "website": "https://team-mir.ai",
+      "isRuling": false
+    },
+    {
       "id": "IND",
       "name": "無所属",
       "shortName": "無所属",

@@ -16,7 +16,9 @@
         "youtube": "https://www.youtube.com/@TeamFukasaku",
         "x": "https://x.com/FukasakuKj",
         "instagram": "https://www.instagram.com/team_fukasaku"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol2",
@@ -26,14 +28,16 @@
       "caucus": "自由民主党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 1,
+      "electionCount": 2,
       "firstElected": "2019",
-      "birthDate": "1967-11-09",
+      "birthDate": "1971-09-29",
       "gender": "女性",
       "sns": {
         "x": "https://x.com/89314honda",
         "instagram": "https://www.instagram.com/hondaakikostaff?igsh=MTkyZDN6dGZ1Znds"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol3",
@@ -43,7 +47,7 @@
       "caucus": "国民民主党",
       "house": "参議院",
       "constituency": "静岡",
-      "electionCount": 4,
+      "electionCount": 5,
       "firstElected": "2001",
       "position": "幹事長",
       "birthDate": "1967-04-25",
@@ -51,7 +55,9 @@
       "sns": {
         "x": "https://x.com/SHIMBA_OFFICE",
         "youtube": "https://www.youtube.com/@%E3%81%97%E3%82%93%E3%81%B0%E3%81%8B%E3%81%A5%E3%82%84%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol4",
@@ -70,7 +76,9 @@
         "x": "https://x.com/tamakiyuichiro",
         "youtube": "https://www.youtube.com/@tamaki-channel",
         "instagram": "https://www.instagram.com/yuichiro.tamaki"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol5",
@@ -89,7 +97,9 @@
         "x": "https://x.com/shigeruishiba",
         "youtube": "https://www.youtube.com/@ishibach",
         "instagram": "https://www.instagram.com/ishibashigeru"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol6",
@@ -108,7 +118,9 @@
         "x": "https://x.com/jinkamiya",
         "youtube": "https://www.youtube.com/@ChGrandStrategy",
         "instagram": "https://www.instagram.com/jinkamiya33"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol7",
@@ -127,7 +139,9 @@
         "youtube": "https://www.youtube.com/@asano__satoshi",
         "x": "https://x.com/Asano__Satoshi",
         "instagram": "https://www.instagram.com/satoshi__asano"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol8",
@@ -145,7 +159,9 @@
         "x": "https://x.com/kamiyamasayuki_",
         "youtube": "https://www.youtube.com/@%E7%A5%9E%E8%B0%B7%E3%81%BE%E3%81%95%E3%82%86%E3%81%8D-x1o",
         "instagram": "https://www.instagram.com/masayuki_kamiya23"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol9",
@@ -160,8 +176,9 @@
       "position": "幹事長",
       "birthDate": "1945-04-08",
       "gender": "男性",
-      "sns": {
-      }
+      "sns": {},
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol10",
@@ -180,7 +197,9 @@
         "x": "https://x.com/sugawitter",
         "youtube": "https://www.youtube.com/@sugayoshihide",
         "instagram": "https://www.instagram.com/suga.yoshihide"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol11",
@@ -199,7 +218,9 @@
         "x": "https://x.com/Iwatani_Ryohei",
         "youtube": "https://www.youtube.com/@%E5%85%AC%E5%BC%8F%E6%97%A5%E6%9C%AC%E7%B6%AD%E6%96%B0%E3%81%AE%E4%BC%9A%E5%B2%A9%E8%B0%B7",
         "instagram": "https://www.instagram.com/ryohei.iwatani.higashi_osaka"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol12",
@@ -218,7 +239,9 @@
         "youtube": "https://www.youtube.com/@itoutakae",
         "x": "https://x.com/itotakae0630",
         "instagram": "https://www.instagram.com/itotakae"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol13",
@@ -237,7 +260,9 @@
         "youtube": "https://www.youtube.com/@MotohisaFurukawa",
         "x": "https://x.com/Fullgen",
         "instagram": "https://www.instagram.com/motohisa_furukawa"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol14",
@@ -254,7 +279,9 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/NODAYOSHI55"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol15",
@@ -272,7 +299,9 @@
         "x": "https://x.com/kishida230",
         "youtube": "https://www.youtube.com/@kishidafumio230",
         "instagram": "https://www.instagram.com/fumio_kishida"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol16",
@@ -287,7 +316,9 @@
       "position": "最高顧問",
       "birthDate": "1940-09-20",
       "gender": "男性",
-      "sns": {}
+      "sns": {},
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol17",
@@ -306,7 +337,9 @@
         "x": "https://x.com/junyaog",
         "youtube": "https://www.youtube.com/@ogawa_junya",
         "instagram": "https://www.instagram.com/ogawa_junya.kagawa"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol18",
@@ -323,7 +356,9 @@
       "sns": {
         "x": "https://x.com/shinjirokoiz",
         "instagram": "https://www.instagram.com/shinjiro.koizumi"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol19",
@@ -342,7 +377,9 @@
         "x": "https://x.com/saitotetsuo",
         "youtube": "https://www.youtube.com/@3110tetsuo",
         "instagram": "https://www.instagram.com/saito.tetsuo999"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol20",
@@ -360,7 +397,9 @@
       "sns": {
         "x": "https://x.com/okamoto3nari",
         "instagram": "https://www.instagram.com/mitsunari.okamoto"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol21",
@@ -379,7 +418,9 @@
         "x": "https://x.com/yamamototaro0",
         "youtube": "https://www.youtube.com/@taroyamamoto_official",
         "instagram": "https://www.instagram.com/shiminmedia"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol22",
@@ -398,7 +439,9 @@
         "x": "https://x.com/mizuhofukushima",
         "youtube": "https://www.youtube.com/@FukushimaMizuho",
         "instagram": "https://www.instagram.com/mizuho_fukushima9"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol23",
@@ -416,7 +459,9 @@
       "sns": {
         "x": "https://x.com/aoyagi_h",
         "instagram": "https://www.instagram.com/aoyagi117"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol24",
@@ -434,7 +479,9 @@
         "x": "https://x.com/hide_usuki",
         "youtube": "https://www.youtube.com/@%E3%81%86%E3%81%99%E3%81%8D%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/usuki_hidetake"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol25",
@@ -452,7 +499,9 @@
         "x": "https://x.com/odake_kokumin",
         "youtube": "https://www.youtube.com/@odake_kokumin",
         "instagram": "https://www.instagram.com/odake_kokumin"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol26",
@@ -470,7 +519,9 @@
         "x": "https://x.com/saria_hino",
         "youtube": "https://www.youtube.com/@sariahino",
         "instagram": "https://www.instagram.com/saria.hino"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol27",
@@ -488,7 +539,9 @@
         "x": "https://x.com/Toru_Fukuta",
         "youtube": "https://www.youtube.com/@%E7%A6%8F%E7%94%B0%E3%81%A8%E3%81%8A%E3%82%8B",
         "instagram": "https://www.instagram.com/toru.fukuta"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol28",
@@ -507,7 +560,9 @@
         "x": "https://x.com/HamaMako0518",
         "youtube": "https://www.youtube.com/@%E3%81%AF%E3%81%BE%E3%81%90%E3%81%A1%E8%AA%A0%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB",
         "instagram": "https://www.instagram.com/hamaguchi_makoto"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol29",
@@ -526,7 +581,9 @@
         "x": "https://x.com/yasue_funayama0",
         "youtube": "https://www.youtube.com/@yasuechan",
         "instagram": "https://www.instagram.com/funayama_yasue/"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol30",
@@ -537,11 +594,12 @@
       "house": "衆議院",
       "constituency": "福島2区",
       "electionCount": 11,
-      "firstElected": "1993", 
+      "firstElected": "1993",
       "birthDate": "1964-05-20",
       "gender": "男性",
-      "sns": {
-      }
+      "sns": {},
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol31",
@@ -551,7 +609,7 @@
       "caucus": "国民民主党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 2,
+      "electionCount": 3,
       "firstElected": "2013",
       "position": "副代表兼広報委員長代理",
       "birthDate": "1969-04-07",
@@ -559,7 +617,9 @@
       "sns": {
         "x": "https://x.com/IsozakiTetsuji",
         "youtube": "https://www.youtube.com/@IsozakiTetsuji"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol32",
@@ -569,7 +629,7 @@
       "caucus": "国民民主党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 1,
+      "electionCount": 2,
       "firstElected": "2016",
       "position": "副代表兼広報委員長代理",
       "birthDate": "1976-04-23",
@@ -578,7 +638,9 @@
         "x": "https://x.com/mamitamuratw",
         "youtube": "https://www.youtube.com/@%E7%94%B0%E6%9D%91%E3%81%BE%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
         "instagram": "https://www.instagram.com/mamitamuraig"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol33",
@@ -597,7 +659,9 @@
         "x": "https://x.com/t_takai",
         "youtube": "https://www.youtube.com/@%E9%AB%98%E4%BA%95%E3%81%9F%E3%81%8B%E3%81%97-q4i",
         "instagram": "https://www.instagram.com/takashi_takai"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol34",
@@ -615,7 +679,9 @@
       "sns": {
         "x": "https://x.com/T_KAWAI_SANGIIN",
         "youtube": "https://www.youtube.com/@%E3%81%8B%E3%82%8F%E3%81%84%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A%E4%BA%8B%E5%8B%99%E6%89%80"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol35",
@@ -633,7 +699,9 @@
         "x": "https://x.com/matsubarajin731",
         "youtube": "https://www.youtube.com/@%E6%9D%BE%E5%8E%9F%E4%BB%81%E3%81%AE%E3%82%B8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E6%9D%B1%E4%BA%AC",
         "instagram": "https://www.instagram.com/matsubara.jin"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol36",
@@ -651,7 +719,9 @@
         "x": "https://x.com/onoda_kimi",
         "youtube": "https://www.youtube.com/@%E5%B0%8F%E9%87%8E%E7%94%B0%E7%B4%80%E7%BE%8E%E5%85%AC%E5%BC%8FYouTube",
         "instagram": "https://www.instagram.com/onodakimijimusho"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol37",
@@ -669,7 +739,9 @@
         "x": "https://x.com/takaichi_sanae",
         "youtube": "https://www.youtube.com/@takaichisanaechannel",
         "instagram": "https://www.instagram.com/takaichi_sanae"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol38",
@@ -686,7 +758,9 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/shiikazuo"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol39",
@@ -704,7 +778,9 @@
         "x": "https://x.com/ozorakoki",
         "youtube": "https://www.youtube.com/@ozorakoki",
         "instagram": "https://www.instagram.com/ozora_koki/"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol40",
@@ -722,7 +798,9 @@
         "x": "https://x.com/hiratakuchan",
         "youtube": "https://www.youtube.com/@hiratakuyt",
         "instagram": "https://www.instagram.com/hiratakuchan0125"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol41",
@@ -740,7 +818,9 @@
         "x": "https://x.com/konotarogomame",
         "youtube": "https://www.youtube.com/@KonoTaroGomame",
         "instagram": "https://www.instagram.com/konotarogomame"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol42",
@@ -758,7 +838,9 @@
         "x": "https://x.com/inosenaoki",
         "youtube": "https://www.youtube.com/@%E7%8C%AA%E7%80%AC%E7%9B%B4%E6%A8%B9-v2g",
         "instagram": "https://www.instagram.com/inose.naoki"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol43",
@@ -776,7 +858,9 @@
         "x": "https://x.com/aoyamashigeharu",
         "youtube": "https://www.youtube.com/@shigeharuaoyama",
         "instagram": "https://www.instagram.com/aoyama_shigeharu/"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol44",
@@ -794,7 +878,9 @@
         "x": "https://x.com/Imai_Eriko0922",
         "youtube": "https://www.youtube.com/@%E4%BB%8A%E4%BA%95%E7%B5%B5%E7%90%86%E5%AD%90%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/imai_eriko0922"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol45",
@@ -811,7 +897,9 @@
       "sns": {
         "x": "https://x.com/miyazawa_yoichi",
         "instagram": "https://www.instagram.com/miyazawa_yoichi"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol46",
@@ -821,14 +909,16 @@
       "caucus": "自由民主党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 5,
+      "electionCount": 6,
       "firstElected": "1995",
       "birthDate": "1964-10-05",
       "gender": "女性",
       "sns": {
         "x": "https://x.com/hashimoto_seiko",
         "instagram": "https://www.instagram.com/seiko_hashimoto1005"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol47",
@@ -846,7 +936,9 @@
         "x": "https://x.com/NAKADAHiroshi",
         "youtube": "https://www.youtube.com/@NAKADAHiroshiOffice",
         "instagram": "https://www.instagram.com/hiroshi.nakada2023"
-      }
+      },
+      "disabled": true,
+      "elected2025": true
     },
     {
       "id": "pol48",
@@ -863,27 +955,31 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/m_nishida"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
-         {
-       "id": "pol49",
-       "name": "佐々木 さやか",
-       "kana": "ささき さやか",
-       "partyId": "KMT",
-       "caucus": "公明党",
-       "house": "参議院",
-       "constituency": "神奈川",
-       "electionCount": 2,
-       "firstElected": "2013",
-       "birthDate": "1981-01-18",
-       "gender": "女性",
-       "sns": {
-         "x": "https://x.com/sayaka_sasaki",
-         "youtube": "https://www.youtube.com/@SasakiSayakaCh",
-         "instagram": "https://www.instagram.com/sayaka.s0514"
-       }
-     },
-     {
+    {
+      "id": "pol49",
+      "name": "佐々木 さやか",
+      "kana": "ささき さやか",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "参議院",
+      "constituency": "神奈川",
+      "electionCount": 2,
+      "firstElected": "2013",
+      "birthDate": "1981-01-18",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/sayaka_sasaki",
+        "youtube": "https://www.youtube.com/@SasakiSayakaCh",
+        "instagram": "https://www.instagram.com/sayaka.s0514"
+      },
+      "disabled": true,
+      "elected2025": true
+    },
+    {
       "id": "pol50",
       "name": "伊藤 孝江",
       "kana": "いとう たかえ",
@@ -899,9 +995,11 @@
         "x": "https://x.com/ito_takae",
         "youtube": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E9%81%B8%E6%8C%99%E5%85%B5%E5%BA%AB%E7%9C%8C%E9%81%B8%E6%8C%99",
         "instagram": "https://www.instagram.com/ito_takae"
-      }
-     },
-     {
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
       "id": "pol51",
       "name": "赤澤 亮正",
       "kana": "あかざわ りょうせい",
@@ -915,9 +1013,11 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/ryosei_akazawa"
-      }
-     },
-     {
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
       "id": "pol52",
       "name": "稲田 朋美",
       "kana": "いなだ ともみ",
@@ -932,9 +1032,11 @@
       "sns": {
         "x": "https://x.com/dento_to_souzo",
         "instagram": "https://www.instagram.com/tomomiinada"
-      }
-     },
-     {
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
       "id": "pol53",
       "name": "加田 裕之",
       "kana": "かだ ひろゆき",
@@ -942,7 +1044,7 @@
       "caucus": "自由民主党",
       "house": "参議院",
       "constituency": "兵庫",
-      "electionCount": 1,
+      "electionCount": 2,
       "firstElected": "2019",
       "birthDate": "1970-06-08",
       "gender": "男性",
@@ -950,9 +1052,11 @@
         "x": "https://x.com/kadahiroyuki",
         "youtube": "https://www.youtube.com/@kadahiroyuki_ch",
         "instagram": "https://www.instagram.com/hiroyukikada"
-      }
-     },
-     {
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
       "id": "pol54",
       "name": "片山 さつき",
       "kana": "かたやま さつき",
@@ -967,9 +1071,11 @@
       "sns": {
         "x": "https://x.com/satsukikatayama",
         "youtube": "https://www.youtube.com/@%E7%89%87%E5%B1%B1%E3%81%95%E3%81%A4%E3%81%8D"
-      }
-     },
-     {
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
       "id": "pol55",
       "name": "杉尾 秀哉",
       "kana": "すぎお ひでや",
@@ -983,9 +1089,12 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/TeamSugioHideya",
-        "youtube": "https://www.youtube.com/@%E6%9D%89%E5%B0%BE%E3%81%B2%E3%81%A7%E3%82%84%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"      }
-     },
-     {
+        "youtube": "https://www.youtube.com/@%E6%9D%89%E5%B0%BE%E3%81%B2%E3%81%A7%E3%82%84%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB"
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
       "id": "pol56",
       "name": "石垣 のりこ",
       "kana": "いしがき のりこ",
@@ -993,7 +1102,7 @@
       "caucus": "立憲民主党",
       "house": "参議院",
       "constituency": "宮城",
-      "electionCount": 1,
+      "electionCount": 2,
       "firstElected": "2019",
       "birthDate": "1974-08-01",
       "gender": "女性",
@@ -1001,7 +1110,9 @@
         "x": "https://x.com/norinotes",
         "youtube": "https://www.youtube.com/@%E7%9F%B3%E5%9E%A3%E3%81%AE%E3%82%8A%E3%81%93-t6r",
         "instagram": "https://www.instagram.com/noriko.ishigaki.39"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol57",
@@ -1019,7 +1130,9 @@
         "x": "https://x.com/TAIRAMASAAKI",
         "youtube": "https://www.youtube.com/@tairamasaaki",
         "instagram": "https://www.instagram.com/masaaki5392"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol58",
@@ -1037,7 +1150,9 @@
         "x": "https://x.com/eri_arfiya",
         "youtube": "https://www.youtube.com/@eri_arfiya",
         "instagram": "https://www.instagram.com/eri_arfiya"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol59",
@@ -1046,8 +1161,8 @@
       "partyId": "IND",
       "caucus": "無所属",
       "house": "参議院",
-      "constituency": "愛媛1区",
-      "electionCount": 1,
+      "constituency": "愛媛",
+      "electionCount": 2,
       "firstElected": "2019",
       "birthDate": "1960-06-15",
       "gender": "女性",
@@ -1055,7 +1170,9 @@
         "x": "https://x.com/takakonagae",
         "youtube": "https://www.youtube.com/@nagae-takako",
         "instagram": "https://www.instagram.com/ehime.nagaetakako"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol60",
@@ -1073,7 +1190,9 @@
         "x": "https://x.com/katoayuko_and_s",
         "youtube": "https://www.youtube.com/@%E3%81%8B%E3%81%A8%E3%81%86%E9%AE%8E%E5%AD%90",
         "instagram": "https://www.instagram.com/ayuko_kato"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol61",
@@ -1089,7 +1208,9 @@
       "gender": "男性",
       "sns": {
         "instagram": "https://www.instagram.com/nobuchiyo_kishi"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol62",
@@ -1106,7 +1227,9 @@
       "sns": {
         "x": "https://x.com/kobahawk",
         "youtube": "https://www.youtube.com/@kobahawkchannel"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol63",
@@ -1124,7 +1247,9 @@
         "x": "https://x.com/takagi_kaori_",
         "youtube": "https://www.youtube.com/@takagikaori1010",
         "instagram": "https://www.instagram.com/takagi_kaori_"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol64",
@@ -1141,7 +1266,9 @@
       "sns": {
         "x": "https://x.com/akemi1212333",
         "instagram": "https://www.instagram.com/akemi1212333"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol65",
@@ -1159,7 +1286,9 @@
         "x": "https://x.com/AlexSaito2019",
         "youtube": "https://www.youtube.com/@%E6%96%8E%E8%97%A4%E3%82%A2%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9YouTube%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/alexsaito19"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol66",
@@ -1177,7 +1306,9 @@
         "x": "https://x.com/fujimaki_takesi",
         "youtube": "https://www.youtube.com/@%E8%97%A4%E5%B7%BB%E5%81%A5%E5%8F%B2-c9i",
         "instagram": "https://www.instagram.com/alexsaito19"
-      }
+      },
+      "disabled": true,
+      "elected2025": false
     },
     {
       "id": "pol67",
@@ -1195,7 +1326,9 @@
         "x": "https://x.com/abetoshiko",
         "youtube": "https://www.youtube.com/@%E3%81%82%E3%81%B9%E4%BF%8A%E5%AD%90%E4%BA%8B%E5%8B%99%E6%89%80",
         "instagram": "https://www.instagram.com/abetoshikorn"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol68",
@@ -1211,7 +1344,9 @@
       "gender": "男性",
       "sns": {
         "x": "https://x.com/ichiroaisawa"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol69",
@@ -1227,7 +1362,9 @@
       "gender": "男性",
       "sns": {
         "instagram": "https://www.instagram.com/jiroakama"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol70",
@@ -1241,8 +1378,9 @@
       "firstElected": "2005",
       "birthDate": "1968-04-11",
       "gender": "男性",
-      "sns": {
-      }
+      "sns": {},
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol71",
@@ -1261,7 +1399,9 @@
         "x": "https://x.com/ohtsubakiyuko",
         "youtube": "https://www.youtube.com/@ohtsubakijimsho",
         "instagram": "https://www.instagram.com/ohtsubakiyuko"
-      }
+      },
+      "disabled": true,
+      "elected2025": true
     },
     {
       "id": "pol72",
@@ -1279,7 +1419,9 @@
       "sns": {
         "x": "https://x.com/arakaki_kunio",
         "youtube": "https://www.youtube.com/@arakaki_kunio"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol73",
@@ -1298,7 +1440,9 @@
         "x": "https://x.com/tamutomojcp",
         "youtube": "https://www.youtube.com/@tamuratomoko",
         "instagram": "https://www.instagram.com/tamutom.jcp"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol74",
@@ -1316,7 +1460,9 @@
         "x": "https://x.com/pioneertaku84",
         "youtube": "https://www.youtube.com/@%E5%B1%B1%E6%B7%BB%E6%8B%93%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/yamazoe_taku"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol75",
@@ -1326,7 +1472,7 @@
       "caucus": "日本共産党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 4,
+      "electionCount": 5,
       "firstElected": "2007",
       "position": "書記局長",
       "birthDate": "1960-06-09",
@@ -1335,7 +1481,9 @@
         "x": "https://x.com/koike_akira",
         "youtube": "https://www.youtube.com/@YouTuberKoikeAkira",
         "instagram": "https://www.instagram.com/akira2koike"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol76",
@@ -1345,7 +1493,7 @@
       "caucus": "日本共産党",
       "house": "参議院",
       "constituency": "東京",
-      "electionCount": 1,
+      "electionCount": 3,
       "firstElected": "2013",
       "birthDate": "1982-09-14",
       "gender": "女性",
@@ -1353,7 +1501,9 @@
         "x": "https://x.com/kirayoshiko",
         "youtube": "https://www.youtube.com/@yossikira1982",
         "instagram": "https://www.instagram.com/kirayoshiko_official"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol77",
@@ -1371,7 +1521,9 @@
         "x": "https://x.com/rina_yoshikawa_",
         "youtube": "https://www.youtube.com/@yoshikawarina",
         "instagram": "https://www.instagram.com/yoshikawa_rina"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol78",
@@ -1388,7 +1540,9 @@
       "sns": {
         "x": "https://x.com/yukokitano123",
         "instagram": "https://www.instagram.com/yuko.kitano"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol79",
@@ -1406,7 +1560,9 @@
         "x": "https://x.com/suzukiatsushi_",
         "youtube": "https://www.youtube.com/@%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%88%B4%E6%9C%A8%E3%81%82%E3%81%A4%E3%81%97",
         "instagram": "https://www.instagram.com/suzukiatsushi_"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol80",
@@ -1415,8 +1571,8 @@
       "partyId": "PDY",
       "caucus": "参政党",
       "house": "参議院",
-      "constituency": "大阪",
-      "electionCount": 1,
+      "constituency": "全国(比例)",
+      "electionCount": 2,
       "firstElected": "2019",
       "birthDate": "1978-09-10",
       "gender": "女性",
@@ -1424,7 +1580,9 @@
         "x": "https://x.com/mizuho_umemura",
         "youtube": "https://www.youtube.com/@umemura-mizuho",
         "instagram": "https://www.instagram.com/umemura_mizuho"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol81",
@@ -1442,7 +1600,9 @@
         "x": "https://x.com/gaku_ito",
         "youtube": "https://www.youtube.com/@%E4%BC%8A%E8%97%A4%E5%B2%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/itogakusangiingiin"
-      }
+      },
+      "disabled": true,
+      "elected2025": true
     },
     {
       "id": "pol82",
@@ -1459,7 +1619,9 @@
       "sns": {
         "x": "https://x.com/oshima_kusuo",
         "youtube": "https://www.youtube.com/@k939"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol83",
@@ -1477,7 +1639,9 @@
         "x": "https://x.com/aiainstein",
         "youtube": "https://www.youtube.com/@aiainetein",
         "instagram": "https://www.instagram.com/ayata_yhat"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol84",
@@ -1485,7 +1649,7 @@
       "kana": "おおいし あきこ",
       "partyId": "RS",
       "caucus": "れいわ新選組",
-      "house": "参議院",
+      "house": "衆議院",
       "constituency": "全国(比例)",
       "electionCount": 2,
       "firstElected": "2020",
@@ -1496,7 +1660,9 @@
         "x": "https://x.com/oishiakiko",
         "youtube": "https://www.youtube.com/@oishiakiko",
         "instagram": "https://www.instagram.com/oishiakiko.osaka"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol85",
@@ -1514,7 +1680,9 @@
         "x": "https://x.com/mori_yosuke_",
         "youtube": "https://www.youtube.com/@mori-yosuke",
         "instagram": "https://www.instagram.com/mori_yosuke_"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol86",
@@ -1524,7 +1692,7 @@
       "caucus": "国民民主党",
       "house": "参議院",
       "constituency": "全国(比例)",
-      "electionCount": 2,
+      "electionCount": 3,
       "firstElected": "2013",
       "position": "選挙対策委員長",
       "birthDate": "1960-12-21",
@@ -1533,7 +1701,9 @@
         "x": "https://x.com/hamanoyoshifumi",
         "youtube": "https://www.youtube.com/@%E6%B5%9C%E9%87%8E%E3%82%88%E3%81%97%E3%81%B5%E3%81%BF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
         "instagram": "https://www.instagram.com/hamanoyoshifumi"
-      }
+      },
+      "disabled": false,
+      "elected2025": true
     },
     {
       "id": "pol87",
@@ -1551,7 +1721,9 @@
         "x": "https://x.com/Takezume_H",
         "youtube": "https://www.youtube.com/@%E7%AB%B9%E8%A9%B0%E3%81%B2%E3%81%A8%E3%81%97%E3%81%AE%E3%81%9F%E3%81%91%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
         "instagram": "https://www.instagram.com/takezume_hitoshi"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol88",
@@ -1569,7 +1741,9 @@
         "x": "https://x.com/mukoyama_kobe",
         "youtube": "https://www.youtube.com/@mukoyama-dpfp",
         "instagram": "https://www.instagram.com/mukoyama0718"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol89",
@@ -1587,7 +1761,9 @@
         "x": "https://x.com/tannomidori",
         "youtube": "https://www.youtube.com/@tannomidori",
         "instagram": "https://www.instagram.com/midorimarron"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol90",
@@ -1604,7 +1780,9 @@
       "sns": {
         "x": "https://x.com/SatoMasahisa",
         "youtube": "https://www.youtube.com/@masahisa-hige"
-      }
+      },
+      "disabled": true,
+      "elected2025": true
     },
     {
       "id": "pol91",
@@ -1620,7 +1798,9 @@
       "gender": "女性",
       "sns": {
         "x": "https://x.com/natsumikan1003"
-      }
+      },
+      "disabled": true,
+      "elected2025": true
     },
     {
       "id": "pol92",
@@ -1637,7 +1817,9 @@
       "sns": {
         "x": "https://x.com/asao_keiichiro",
         "youtube": "https://www.youtube.com/@asaokeiichiro-hige"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
     },
     {
       "id": "pol93",
@@ -1654,7 +1836,249 @@
       "sns": {
         "x": "https://x.com/hirooishii6",
         "instagram": "https://www.instagram.com/hirooishii6"
-      }
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
+      "id": "pol94",
+      "name": "高橋 光男",
+      "kana": "たかはし みつお",
+      "partyId": "KMT",
+      "caucus": "公明党",
+      "house": "参議院",
+      "constituency": "兵庫",
+      "electionCount": 2,
+      "firstElected": "2019",
+      "birthDate": "1977-02-15",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/takahashimitsuo",
+        "youtube": "https://www.youtube.com/@takahashimitsuo",
+        "instagram": "https://www.instagram.com/takahashimitsuo"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol95",
+      "name": "泉 房穂",
+      "kana": "いずみ ふさほ",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "参議院",
+      "constituency": "兵庫",
+      "electionCount": 2,
+      "firstElected": "2003",
+      "birthDate": "1963-08-19",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/izumi_akashi",
+        "youtube": "https://www.youtube.com/@kawakami-takahiro",
+        "instagram": "https://www.instagram.com/kawakami_takahiro"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol96",
+      "name": "ラサール 石井",
+      "kana": "らさーる いしい",
+      "partyId": "SDP",
+      "caucus": "社会民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1955-10-19",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/bwkZhVxTlWNLSxd",
+        "youtube": "https://www.youtube.com/@%E3%83%A9%E3%82%B5%E3%83%BC%E3%83%AB%E7%9F%B3%E4%BA%95%E5%85%AC%E5%BC%8F%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/lasar141"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol97",
+      "name": "安野 貴博",
+      "kana": "あんの たかひろ",
+      "partyId": "TM",
+      "caucus": "チームみらい",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1990-12-01",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/takahiroanno",
+        "youtube": "https://www.youtube.com/@%E5%AE%89%E9%87%8E%E8%B2%B4%E5%8D%9A",
+        "instagram": "https://www.instagram.com/annotakahiro2024"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol98",
+      "name": "伊藤 辰夫",
+      "kana": "いとう たつお",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1965-05-17",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/itoh_tatsuo",
+        "youtube": "https://www.youtube.com/@tatsuo_i_39thankyou",
+        "instagram": "https://www.instagram.com/i_tatsuo_39thankyou"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol99",
+      "name": "足立 康史",
+      "kana": "あだち やすし",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1965-10-14",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/adachiyasushi",
+        "youtube": "https://www.youtube.com/@adc83",
+        "instagram": "https://www.instagram.com/adachiyasushi"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol100",
+      "name": "平戸 航太",
+      "kana": "ひらど こうた",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1987-07-01",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/KoutaHirado",
+        "youtube": "https://www.youtube.com/@KoutaHirado",
+        "instagram": "https://www.instagram.com/koutahirado"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol101",
+      "name": "山田 吉彦",
+      "kana": "やまだ よしひこ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1962-09-07",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/yoshihiko_umi",
+        "youtube": "https://www.youtube.com/@SeaExchange",
+        "instagram": "https://www.instagram.com/yamadayoshi97"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol102",
+      "name": "小林 さやか",
+      "kana": "やまだ よしひこ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "千葉",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1983-09-05",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/sayaka_koba1983",
+        "youtube": "https://www.youtube.com/@%E5%B0%8F%E6%9E%97%E3%81%95%E3%82%84%E3%81%8B%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/sayaka_koba1983"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol103",
+      "name": "牛田 茉友",
+      "kana": "うしだ まゆ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "東京",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1985-06-08",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/ushidamayu__",
+        "youtube": "https://www.youtube.com/@ushida-channel",
+        "instagram": "https://www.instagram.com/ushida.mayu_"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol104",
+      "name": "奥村 祥大",
+      "kana": "おくむら よしひろ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "東京",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1994-02-09",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/YOSHI_OKUMURA29",
+        "youtube": "https://www.youtube.com/@YOSHI_OKUMURA29",
+        "instagram": "https://www.instagram.com/yoshi_okumura29"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol105",
+      "name": "江原 久美子",
+      "kana": "えはら くみこ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "埼玉",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1970-11-15",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/ekumikoyo",
+        "youtube": "https://www.youtube.com/@eharakumiko",
+        "instagram": "https://www.instagram.com/935.eharakumiko"
+      },
+      "disabled": false,
+      "elected2025": true
     }
   ]
 }

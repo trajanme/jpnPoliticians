@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { getParties } from '@/utils/data';
 import { getPoliticians, getPoliticiansByParty, calculateAge } from '@/utils/politicians';
+import { HiSparkles } from 'react-icons/hi';
 
 type ViewType = 'all' | 'lower' | 'upper';
 
@@ -79,41 +80,21 @@ export default function Home() {
     else if (p.gender === '女性') genderStats[1].count++;
   });
 
-  // SNS 利用状況集計
-  const snsStats = [
-    {
-      key: 'x',
-      label: '𝕏',
-      color: '#000000',
-      count: politicians.filter((p) => p.sns?.x).length,
-    },
-    {
-      key: 'youtube',
-      label: 'YouTube',
-      color: '#DC2626', // red-600
-      count: politicians.filter((p) => p.sns?.youtube).length,
-    },
-    {
-      key: 'instagram',
-      label: 'Instagram',
-      color: '#DB2777', // pink-600
-      count: politicians.filter((p) => p.sns?.instagram).length,
-    },
-  ];
+
 
   const totalCount = politicians.length;
-  const actualTotalCount = viewType === 'all' ? 713 : viewType === 'lower' ? 465 : 248;
+  const actualTotalCount = totalCount;
   const majorityThreshold = Math.ceil(actualTotalCount / 2);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* 登録進捗バナー */}
-      <div className="mb-8 rounded-lg bg-yellow-100 p-6 text-center shadow-sm dark:bg-yellow-900">
-        <p className="text-lg font-bold text-yellow-800 dark:text-yellow-100">
-          データ登録進捗: {politicians.length} / {TOTAL_MEMBERS} 名 ({progressPercent}%)
-        </p>
-        <p className="mt-1 text-sm text-yellow-700 dark:text-yellow-200">
-          全議員データの登録を目指して順次追加中です！
+      <div className="mb-8">
+        <div className="mb-4 flex items-baseline justify-between">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">国会議員検索サービス</h1>
+          <span className="text-sm text-gray-600 dark:text-gray-300">{politicians.length} 人</span>
+        </div>
+        <p className="text-gray-600 dark:text-gray-300">
+          衆議院および参議院の現職議員情報を一覧表示しています。
         </p>
       </div>
 
@@ -140,7 +121,90 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 政党別人数の積み上げ棒グラフ */}
+      {/* 進捗バー */}
+      <div className="mb-8">
+        <div className="mb-2 flex items-center justify-between">
+          <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+            議員数
+          </h2>
+          <span className="text-sm text-gray-600 dark:text-gray-400">
+            {politicians.length} / {TOTAL_MEMBERS} ({progressPercent}%)
+          </span>
+        </div>
+        <div className="h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+          <div
+            className="h-full bg-blue-600 transition-all duration-300"
+            style={{ width: `${progressPercent}%` }}
+          />
+        </div>
+      </div>
+
+      {/* 年齢分布 */}
+      <div className="mb-12">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">年代分布</h2>
+          <div className="text-sm font-medium text-gray-600 dark:text-gray-400">
+            平均年齢: <span className="text-blue-600 dark:text-blue-400">{averageAge.toFixed(1)}歳</span>
+          </div>
+        </div>
+        <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
+          {ageBuckets.map(({ key, color, count }) => {
+            const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+            return (
+              <div
+                key={key}
+                style={{ width: `${percent}%`, backgroundColor: color }}
+                className="h-full"
+              />
+            );
+          })}
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
+          {ageBuckets.map(({ key, label, color, count }) => {
+            const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+            return (
+              <div key={key} className="flex items-center space-x-1 whitespace-nowrap">
+                <span className="inline-block h-3 w-3 rounded flex-shrink-0" style={{ backgroundColor: color }} />
+                <span className="truncate">{label}</span>
+                <span className="ml-auto flex-shrink-0">{count} ({percent.toFixed(1)}%)</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 男女比 */}
+      <div className="mb-12">
+        <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">男女比</h2>
+        <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
+          {genderStats.map(({ key, color, count }) => {
+            const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+            return (
+              <div
+                key={key}
+                style={{ width: `${percent}%`, backgroundColor: color }}
+                className="h-full"
+              />
+            );
+          })}
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200">
+          {genderStats.map(({ key, label, color, count }) => {
+            const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
+            return (
+              <div key={key} className="flex items-center space-x-1">
+                <span className="inline-block h-3 w-3 rounded" style={{ backgroundColor: color }} />
+                <span>{label}</span>
+                <span className="ml-auto">{count} ({percent.toFixed(1)}%)</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+
+
+      {/* 政党別人数 */}
       <div className="mb-12">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">政党別人数</h2>
@@ -189,117 +253,45 @@ export default function Home() {
         </div>
         
         {/* 凡例 */}
-        <div className="mt-4 grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {partyStats.map((party) => {
-            const percent = (party.count / totalCount) * 100;
-            return (
-              <div key={party.id} className="flex items-center space-x-2">
-                <span 
-                  className="inline-block h-3 w-3 rounded" 
-                  style={{ backgroundColor: party.color }} 
+        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {partyStats.map((party) => (
+            <Link
+              key={party.id}
+              href={`/parties/${party.id}`}
+              className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-all hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+            >
+              <div className="flex items-center space-x-3">
+                <div
+                  className="h-4 w-4 rounded"
+                  style={{ backgroundColor: party.color }}
                 />
-                <span className="truncate">{party.name}</span>
-                <span className="ml-auto font-medium">{party.count} ({percent.toFixed(1)}%)</span>
+                <div>
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    {party.name}
+                    {party.isRuling && (
+                      <span className="ml-2 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 px-2 py-0.5 text-xs font-bold text-white">
+                        <HiSparkles className="h-3 w-3" />
+                        与党
+                      </span>
+                    )}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {party.shortName}
+                  </p>
+                </div>
               </div>
-            );
-          })}
+              <span className="text-lg font-bold text-gray-900 dark:text-white">
+                {party.count}
+              </span>
+            </Link>
+          ))}
         </div>
       </div>
 
-      {/* 年齢分布 */}
-      {politicians.length > 0 && (
-        <div className="mb-12">
-          <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">年齢分布</h2>
-            <div className="text-sm font-medium text-gray-600 dark:text-gray-400">
-              平均年齢: <span className="text-blue-600 dark:text-blue-400">{averageAge.toFixed(1)}歳</span>
-            </div>
-          </div>
-          <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
-            {ageBuckets.map(({ key, color, count }) => {
-              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
-              return (
-                <div
-                  key={key}
-                  style={{ width: `${percent}%`, backgroundColor: color }}
-                  className="h-full"
-                />
-              );
-            })}
-          </div>
-          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
-            {ageBuckets.map(({ key, label, color, count }) => {
-              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
-              return (
-                <div key={key} className="flex items-center space-x-1 whitespace-nowrap">
-                  <span className="inline-block h-3 w-3 rounded flex-shrink-0" style={{ backgroundColor: color }} />
-                  <span className="truncate">{label}</span>
-                  <span className="ml-auto flex-shrink-0">{count} ({percent.toFixed(1)}%)</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
-      {/* 男女比 */}
-      {politicians.length > 0 && (
-        <div className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">男女比</h2>
-          <div className="mb-4 h-4 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 flex">
-            {genderStats.map(({ key, color, count }) => {
-              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
-              return (
-                <div
-                  key={key}
-                  style={{ width: `${percent}%`, backgroundColor: color }}
-                  className="h-full"
-                />
-              );
-            })}
-          </div>
-          <div className="grid grid-cols-2 gap-2 text-sm text-gray-700 dark:text-gray-200">
-            {genderStats.map(({ key, label, color, count }) => {
-              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
-              return (
-                <div key={key} className="flex items-center space-x-1">
-                  <span className="inline-block h-3 w-3 rounded" style={{ backgroundColor: color }} />
-                  <span>{label}</span>
-                  <span className="ml-auto">{count} ({percent.toFixed(1)}%)</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
-      {/* SNS 利用状況 */}
-      {politicians.length > 0 && (
-        <div className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">SNS 利用状況</h2>
-          <div className="space-y-4">
-            {snsStats.map(({ key, label, color, count }) => {
-              const percent = politicians.length === 0 ? 0 : (count / politicians.length) * 100;
-              return (
-                <div key={key}>
-                  <div className="mb-1 flex justify-between text-sm font-medium text-gray-700 dark:text-gray-200">
-                    <span>{label}</span>
-                    <span>
-                      {count} ({percent.toFixed(1)}%)
-                    </span>
-                  </div>
-                  <div className="h-3 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
-                    <div
-                      className="h-full"
-                      style={{ width: `${percent}%`, backgroundColor: color }}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
+      {/* 最終更新日 */}
+      <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+        最終更新: 2025年1月
+      </div>
     </div>
   );
 }

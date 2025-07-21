@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getParty } from '@/utils/data';
-import { getPoliticiansByParty, calculateAge } from '@/utils/politicians';
+import { getPoliticiansByParty, getElected2025PoliticiansByParty, calculateAge } from '@/utils/politicians';
 import PoliticianCard from '@/components/politicians/PoliticianCard';
 import { FaSortAmountUp, FaSortAmountDown } from 'react-icons/fa';
 
@@ -18,14 +18,18 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
     notFound();
   }
 
-  const [viewType, setViewType] = useState<'all' | 'lower' | 'upper'>('all');
+  const [viewType, setViewType] = useState<'all' | 'lower' | 'upper' | 'elected2025'>('all');
   const [sortType, setSortType] = useState<'name' | 'age' | 'firstElected'>('firstElected');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
   const allPoliticians = getPoliticiansByParty(party.id);
+  const elected2025Politicians = getElected2025PoliticiansByParty(party.id);
+  
   // ビュー切り替えフィルタ
   const filteredPoliticians = viewType === 'all'
     ? allPoliticians
+    : viewType === 'elected2025'
+    ? elected2025Politicians
     : allPoliticians.filter(p => p.house === (viewType === 'lower' ? '衆議院' : '参議院'));
 
   // ソート機能
@@ -48,6 +52,7 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
   });
   const lowerCount = allPoliticians.filter((p) => p.house === '衆議院').length;
   const upperCount = allPoliticians.filter((p) => p.house === '参議院').length;
+  const elected2025Count = elected2025Politicians.length;
 
   // 年代分布と平均年齢計算
   const ageBuckets = [
@@ -171,7 +176,7 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
         <p className="mt-6 text-xl font-semibold text-gray-900 dark:text-white">
           {politicians.length} 人{' '}
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            (衆: {lowerCount}人、参: {upperCount}人)
+            (衆: {lowerCount}人、参: {upperCount}人、2025年当選: {elected2025Count}人)
           </span>
         </p>
 
@@ -310,11 +315,12 @@ export default function PartyDetailPage({ params }: { params: Promise<{ id: stri
               {[
                 { key: 'all', label: '全体' },
                 { key: 'lower', label: '衆議院' },
-                { key: 'upper', label: '参議院' }
+                { key: 'upper', label: '参議院' },
+                { key: 'elected2025', label: '2025年当選' }
               ].map(({ key, label }) => (
                 <button
                   key={key}
-                  onClick={() => setViewType(key as 'all' | 'lower' | 'upper')}
+                  onClick={() => setViewType(key as 'all' | 'lower' | 'upper' | 'elected2025')}
                   className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
                     viewType === key
                       ? 'bg-white text-gray-900 shadow-sm dark:bg-gray-700 dark:text-white'
