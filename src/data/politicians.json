@@ -2368,7 +2368,7 @@
       "elected2025": true
     },
     {
-      "id": "pol120",
+      "id": "pol121",
       "name": "奥田 芙美代",
       "kana": "おくだ ふみよ",
       "partyId": "RS",
@@ -2388,7 +2388,7 @@
       "elected2025": true
     },
     {
-      "id": "pol121",
+      "id": "pol122",
       "name": "宮出 千慧",
       "kana": "みやいで ちさと",
       "partyId": "PDY",
@@ -2408,7 +2408,7 @@
       "elected2025": true
     },
     {
-      "id": "pol122",
+      "id": "pol123",
       "name": "中田 優子",
       "kana": "なかだ ゆうこ",
       "partyId": "PDY",
@@ -2427,7 +2427,7 @@
       "elected2025": true
     },
     {
-      "id": "pol123",
+      "id": "pol124",
       "name": "安達 悠司",
       "kana": "あだち ゆうじ",
       "partyId": "PDY",
@@ -2447,7 +2447,7 @@
       "elected2025": true
     },
     {
-      "id": "pol123",
+      "id": "pol125",
       "name": "安藤 裕",
       "kana": "あんどう ひろし",
       "partyId": "PDY",
@@ -2462,6 +2462,185 @@
         "x": "https://x.com/andouhiroshi",
         "youtube": "https://www.youtube.com/@%E5%AE%89%E8%97%A4%E8%A3%95-n4z",
         "instagram": "https://www.instagram.com/andou_hiroshi0328"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol126",
+      "name": "松田 学",
+      "kana": "まつだ まなぶ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2012",
+      "birthDate": "1957-11-11",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/matsudamanabu",
+        "youtube": "https://www.youtube.com/@%E6%9D%BE%E7%94%B0%E6%94%BF%E7%AD%96%E7%A0%94%E7%A9%B6%E6%89%80%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/matsuda45"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol127",
+      "name": "岩本 麻奈",
+      "kana": "いわもと まな",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1964-12-04",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/mana_iwamoto",
+        "youtube": "https://www.youtube.com/@iwamotomana",
+        "instagram": "https://www.instagram.com/mana.iwamoto"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol128",
+      "name": "山中 泉",
+      "kana": "やまなか せん",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1958-08-07",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/SenYamanaka",
+        "youtube": "https://www.youtube.com/@SenYamanaka7",
+        "instagram": "https://www.instagram.com/senyamanaka"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol129",
+      "name": "後藤 翔太",
+      "kana": "ごとう しょうた",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1983-01-07",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/shotagotoh0107",
+        "youtube": "https://www.youtube.com/@thinkof8798",
+        "instagram": "https://www.instagram.com/g_shota0107"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol130",
+      "name": "北村 晴男",
+      "kana": "きたむら はるお",
+      "partyId": "JCPN",
+      "caucus": "日本保守党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1956-03-10",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/kitamuraharuo",
+        "youtube": "https://www.youtube.com/@%E5%BC%81%E8%AD%B7%E5%A3%AB%E5%8C%97%E6%9D%91%E6%99%B4%E7%94%B7%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol131",
+      "name": "百田 尚樹",
+      "kana": "ひゃくた なおき",
+      "partyId": "JCPN",
+      "caucus": "日本保守党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1956-02-23",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/Hoshuto_hyakuta",
+        "youtube": "https://www.youtube.com/@%E7%99%BE%E7%94%B0%E5%B0%9A%E6%A8%B9%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/hyakutakun"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol132",
+      "name": "寺田 静",
+      "kana": "てらた しずか",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "参議院",
+      "constituency": "秋田",
+      "electionCount": 2,
+      "firstElected": "2019",
+      "birthDate": "1975-03-23",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/teratashizuka",
+        "youtube": "https://www.youtube.com/@teratashizuka0323",
+        "instagram": "https://www.instagram.com/shizukaterata"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol133",
+      "name": "芳賀 道也",
+      "kana": "はが みちや",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "参議院",
+      "constituency": "山形",
+      "electionCount": 2,
+      "firstElected": "2019",
+      "birthDate": "1958-03-02",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hagamichiya",
+        "youtube": "https://www.youtube.com/@%E3%81%AF%E3%81%8C%E9%81%93%E4%B9%9F-i3r",
+        "instagram": "https://www.instagram.com/hagamichiya"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol134",
+      "name": "望月 良男",
+      "kana": "もちづき よしお",
+      "partyId": "IND",
+      "caucus": "無所属",
+      "house": "参議院",
+      "constituency": "和歌山",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1972-04-19",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/mochizuki440",
+        "youtube": "https://www.youtube.com/@%E5%8F%82%E8%AD%B0%E9%99%A2%E6%9C%9B%E6%9C%88%E8%89%AF%E7%94%B7",
+        "instagram": "https://www.instagram.com/mochizuki.yoshio"
       },
       "disabled": false,
       "elected2025": true
