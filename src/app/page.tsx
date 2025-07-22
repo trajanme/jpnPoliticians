@@ -290,7 +290,7 @@ export default function Home() {
 
       {/* 最終更新日 */}
       <div className="text-center text-sm text-gray-500 dark:text-gray-400">
-        最終更新: 2025年1月
+        最終更新: 2025年7月22日
       </div>
     </div>
   );

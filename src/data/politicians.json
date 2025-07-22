@@ -2079,6 +2079,392 @@
       },
       "disabled": false,
       "elected2025": true
+    },
+    {
+      "id": "pol106",
+      "name": "籠島 彰宏",
+      "kana": "かごしま あきひろ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "神奈川",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1988-12-08",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/kagoshimammoth",
+        "youtube": "https://www.youtube.com/@kagoshimammoth",
+        "instagram": "https://www.instagram.com/kagoshimammoth"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol107",
+      "name": "後藤 斎",
+      "kana": "ごとう ひとし",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "山梨",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1957-07-22",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/goto_hitoshi_"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol108",
+      "name": "庭田 幸恵",
+      "kana": "にわた ゆきえ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "富山",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1967-12-29",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/1229yukie",
+        "youtube": "https://www.youtube.com/@%E5%BA%AD%E7%94%B0%E5%B9%B8%E6%81%B5",
+        "instagram": "https://www.instagram.com/yukie.2025"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol109",
+      "name": "水野 孝一",
+      "kana": "みずの こういち",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "愛知",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1976-10-27",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/mizuno_koichi",
+        "youtube": "https://www.youtube.com/@mizuno_koichi",
+        "instagram": "https://www.instagram.com/mizuno_koichi"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol110",
+      "name": "原田 秀一",
+      "kana": "はらだ ひでかず",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "参議院",
+      "constituency": "香川",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1972-12-25",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/HaradaHidekazu_",
+        "instagram": "https://www.instagram.com/haradhid"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol111",
+      "name": "村岡 敏英",
+      "kana": "むらおか としひで",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "秋田3区",
+      "electionCount": 3,
+      "firstElected": "2025",
+      "birthDate": "1960-07-25",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/Muraoka_Toshi",
+        "youtube": "https://www.youtube.com/@toshihidemuraoka",
+        "instagram": "https://www.instagram.com/muraoka_official"
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
+      "id": "pol112",
+      "name": "西岡 秀子",
+      "kana": "にしおか ひでこ",
+      "partyId": "DPP",
+      "caucus": "国民民主党",
+      "house": "衆議院",
+      "constituency": "長崎1区",
+      "electionCount": 3,
+      "firstElected": "2025",
+      "birthDate": "1964-03-15",
+      "gender": "女性",
+      "sns": {
+        "instagram": "https://www.instagram.com/nishioka_hideko"
+      },
+      "disabled": false,
+      "elected2025": false
+    },
+    {
+      "id": "pol113",
+      "name": "白川 容子",
+      "kana": "しらかわ ようこ",
+      "partyId": "JCP",
+      "caucus": "日本共産党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1966-04-14",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/YoukoSirakawa",
+        "youtube": "https://www.youtube.com/@%E7%99%BD%E5%B7%9D%E3%82%88%E3%81%86%E5%AD%90"      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol114",
+      "name": "桜井 祥子",
+      "kana": "さくらい しょうこ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "茨城",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1984-01-31",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/shoko_sakurai_",
+        "youtube": "https://www.youtube.com/@sakurai-shoko",
+        "instagram": "https://www.instagram.com/shoko.sakurai_"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol115",
+      "name": "大津 力",
+      "kana": "おおつ つとむ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "埼玉",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1971-09-08",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/PygkbVV1E2YvWm3",
+        "youtube": "https://www.youtube.com/@%E5%A4%A7%E6%B4%A5%E5%8A%9B-g1o",
+        "instagram": "https://www.instagram.com/tsutomuohtsu"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol116",
+      "name": "さや",
+      "kana": "さや",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "東京",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1982-07-07",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/sayaohgi",
+        "youtube": "https://www.youtube.com/@saya-fi5zr"
+      },
+      "disabled": false,  
+      "elected2025": true
+    },
+    {
+      "id": "pol117",
+      "name": "初鹿野 裕樹",
+      "kana": "はじかの ひろき",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "神奈川",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1977-07-06",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/hajikano_hiroki",
+        "youtube": "https://www.youtube.com/@hajikano-sanseito",
+        "instagram": "https://www.instagram.com/hajikano_hiroki"
+      },
+      "disabled": false,  
+      "elected2025": true
+    },
+    {
+      "id": "pol118",
+      "name": "杉本 純子",
+      "kana": "すぎもと じゅんこ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "愛知",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1977-07-23",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/junko_aichi3",
+        "instagram": "https://www.instagram.com/junko.aichi3"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol119",
+      "name": "伊勢崎 賢治",
+      "kana": "いせざき けんじ",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1957-07-06",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/isezakikenji"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol120",
+      "name": "木村 英子",
+      "kana": "きむら えいこ",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 2,
+      "firstElected": "2019",
+      "birthDate": "1965-05-11",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/eikokimura",
+        "youtube": "https://www.youtube.com/@%E6%9C%A8%E6%9D%91%E8%8B%B1%E5%AD%90%E4%BA%8B%E5%8B%99%E6%89%80"      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol120",
+      "name": "奥田 芙美代",
+      "kana": "おくだ ふみよ",
+      "partyId": "RS",
+      "caucus": "れいわ新選組",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1977-06-11",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/fumiyokodama",
+        "youtube": "https://www.youtube.com/@%E5%A5%A5%E7%94%B0%E3%81%B5%E3%81%BF%E3%82%88%E3%82%8C%E3%81%84%E3%82%8F%E6%96%B0%E9%81%B8%E7%B5%84",
+        "instagram": "https://www.instagram.com/fumiyo_fukuoka"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol121",
+      "name": "宮出 千慧",
+      "kana": "みやいで ちさと",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "大阪",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1985-03-15",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/chisato_miyade",
+        "youtube": "https://www.youtube.com/@%E5%AE%AE%E5%87%BA%E3%81%A1%E3%81%95%E3%81%A8%E5%BE%8C%E6%8F%B4%E4%BC%9A%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB",
+        "instagram": "https://www.instagram.com/chisato.m03"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol122",
+      "name": "中田 優子",
+      "kana": "なかだ ゆうこ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "福岡",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1989-01-01",
+      "gender": "女性",
+      "sns": {
+        "x": "https://x.com/3yuko_nakada3",
+        "instagram": "https://www.instagram.com/3yuko_nakada3/"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol123",
+      "name": "安達 悠司",
+      "kana": "あだち ゆうじ",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 1,
+      "firstElected": "2025",
+      "birthDate": "1982-06-29",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/adachi3kyoto",
+        "youtube": "https://www.youtube.com/@%E5%AE%89%E9%81%94%E3%81%82%E3%81%A0%E3%81%A1%E6%82%A0%E5%8F%B8%E3%82%86%E3%81%86%E3%81%98",
+        "instagram": "https://www.instagram.com/adachiyuji0629"
+      },
+      "disabled": false,
+      "elected2025": true
+    },
+    {
+      "id": "pol123",
+      "name": "安藤 裕",
+      "kana": "あんどう ひろし",
+      "partyId": "PDY",
+      "caucus": "参政党",
+      "house": "参議院",
+      "constituency": "全国(比例)",
+      "electionCount": 3,
+      "firstElected": "2012",
+      "birthDate": "1965-03-28",
+      "gender": "男性",
+      "sns": {
+        "x": "https://x.com/andouhiroshi",
+        "youtube": "https://www.youtube.com/@%E5%AE%89%E8%97%A4%E8%A3%95-n4z",
+        "instagram": "https://www.instagram.com/andou_hiroshi0328"
+      },
+      "disabled": false,
+      "elected2025": true
     }
   ]
 }
